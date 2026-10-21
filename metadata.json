@@ -1,0 +1,6 @@
+{
+  "name": "Vendor Compliance Guard",
+  "description": "Zero-touch inbound compliance verification and document extraction pipeline with Slack alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

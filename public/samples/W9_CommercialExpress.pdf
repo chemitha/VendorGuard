@@ -1,0 +1,104 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1607 >>
+stream
+BT
+/F1 16 Tf
+50 740 Td
+(IRS FORM W-9 (REV. OCTOBER 2024)) Tj
+/F1 10 Tf
+0 -20 Td
+(REQUEST FOR TAXPAYER IDENTIFICATION NUMBER AND CERTIFICATION) Tj
+/F2 9 Tf
+0 -15 Td
+(=================================================================================) Tj
+
+/F1 11 Tf
+0 -20 Td
+(ENTITY & TAXPAYER IDENTIFICATION) Tj
+/F2 9 Tf
+
+0 -14 Td
+(NAME OF ENTITY: Commercial Express HVAC Inc / FlexTalent Solutions / Apex Logistics) Tj
+
+0 -13 Td
+(BUSINESS NAME: Same as above DBA: Registered Enterprise AP Vendor) Tj
+
+0 -13 Td
+(FEDERAL TAX CLASSIFICATION: [X] Corporation / LLC - Form 1120S) Tj
+
+/F1 11 Tf
+0 -18 Td
+(PART I: TAXPAYER IDENTIFICATION NUMBER (TIN)) Tj
+/F2 9 Tf
+
+0 -14 Td
+(EMPLOYER IDENTIFICATION NUMBER EIN: XX-XXX5829 / XX-XXX2019) Tj
+
+0 -13 Td
+(IRS TIN MATCHING: Verified match on IRS e-Services database) Tj
+
+0 -13 Td
+(EXEMPT PAYEE CODE: Standard commercial payee Subject to 1099-NEC reporting) Tj
+
+/F1 11 Tf
+0 -18 Td
+(PART II: CERTIFICATION & SIGNATURE) Tj
+/F2 9 Tf
+
+0 -14 Td
+(CERTIFICATION: Under penalties of perjury, I certify the TIN shown is correct.) Tj
+
+0 -13 Td
+(BACKUP WITHHOLDING: Not subject to backup withholding under IRC Section 3406a1C.) Tj
+
+0 -13 Td
+(U.S. CITIZEN/PERSON: Confirmed U.S. domestic corporation or legal entity.) Tj
+
+0 -13 Td
+(AUTHORIZED SIGNATURE: David K. Vance, Chief Financial Officer | Certified & Dated) Tj
+
+/F1 11 Tf
+0 -18 Td
+(REQUESTER INFORMATION) Tj
+/F2 9 Tf
+
+0 -14 Td
+(REQUESTER: Acme Logistics Inc., AP Compliance Division, 100 Logistics Blvd, Suite 400) Tj
+
+/F1 8 Tf
+0 -30 Td
+(AUTHENTICATED COMPLIANCE RECORD -- VENDORGUARD AUTOMATED SYSTEM -- SHA-256 VERIFIED) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000001916 00000 n 
+0000001991 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2061
+%%EOF

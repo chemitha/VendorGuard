@@ -1,0 +1,6210 @@
+{
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Apex Logistics LLC",
+      "contactEmail": "dispatch@apexlog.com",
+      "type": "Logistics",
+      "status": "EXPIRED",
+      "documents": [
+        {
+          "id": "doc-apex-coi",
+          "type": "COI",
+          "fileName": "COI_ApexLogistics_2026.pdf",
+          "extractedData": {
+            "vendorName": "Apex Logistics LLC",
+            "expirationDate": "2026-09-30",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.98,
+            "missingFields": [
+              "Policy expired 8 days ago on Sep 30, 2026"
+            ]
+          },
+          "status": "EXPIRED",
+          "createdAt": "2026-01-15T10:30:00Z"
+        },
+        {
+          "id": "doc-apex-w9",
+          "type": "W9",
+          "fileName": "W9_ApexLogistics.pdf",
+          "extractedData": {
+            "vendorName": "Apex Logistics LLC",
+            "taxIdOrEin": "XX-XXX5829",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-01-15T10:35:00Z"
+        }
+      ],
+      "createdAt": "2026-01-15T10:30:00Z",
+      "updatedAt": "2026-10-01T08:00:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Metro Crane & Rigging LLC",
+      "contactEmail": "ops@metrocranes.com",
+      "type": "Logistics",
+      "status": "EXPIRED",
+      "documents": [
+        {
+          "id": "doc-metro-coi",
+          "type": "COI",
+          "fileName": "COI_MetroCrane_2026.pdf",
+          "extractedData": {
+            "vendorName": "Metro Crane & Rigging LLC",
+            "expirationDate": "2026-09-28",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.98,
+            "missingFields": [
+              "Policy expired 10 days ago on Sep 28, 2026"
+            ]
+          },
+          "status": "EXPIRED",
+          "createdAt": "2026-01-18T09:00:00Z"
+        },
+        {
+          "id": "doc-metro-w9",
+          "type": "W9",
+          "fileName": "W9_MetroCrane_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Metro Crane & Rigging LLC",
+            "taxIdOrEin": "XX-XXX8211",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-01-18T09:05:00Z"
+        }
+      ],
+      "createdAt": "2026-01-18T09:00:00Z",
+      "updatedAt": "2026-10-02T08:00:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Vanguard Courier Logistics",
+      "contactEmail": "billing@vanguardcourier.com",
+      "type": "Logistics",
+      "status": "EXPIRED",
+      "documents": [
+        {
+          "id": "doc-vanguard-coi",
+          "type": "COI",
+          "fileName": "COI_Vanguard_2026.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Courier Logistics Inc",
+            "expirationDate": "2026-10-01",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expired 7 days ago on Oct 01, 2026"
+            ]
+          },
+          "status": "EXPIRED",
+          "createdAt": "2026-02-12T11:00:00Z"
+        },
+        {
+          "id": "doc-vanguard-w9",
+          "type": "W9",
+          "fileName": "W9_Vanguard_2026.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Courier Logistics Inc",
+            "taxIdOrEin": "XX-XXX4190",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-12T11:05:00Z"
+        }
+      ],
+      "createdAt": "2026-02-12T11:00:00Z",
+      "updatedAt": "2026-10-03T09:00:00Z"
+    },
+    {
+      "id": "10",
+      "name": "RoadRunner Freightways Inc",
+      "contactEmail": "claims@rrfreightways.com",
+      "type": "Logistics",
+      "status": "EXPIRED",
+      "documents": [
+        {
+          "id": "doc-rr-coi",
+          "type": "COI",
+          "fileName": "COI_RoadRunner_2026.pdf",
+          "extractedData": {
+            "vendorName": "RoadRunner Freightways Inc",
+            "expirationDate": "2026-09-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.96,
+            "missingFields": [
+              "Policy expired 13 days ago on Sep 25, 2026"
+            ]
+          },
+          "status": "EXPIRED",
+          "createdAt": "2026-03-05T08:30:00Z"
+        },
+        {
+          "id": "doc-rr-w9",
+          "type": "W9",
+          "fileName": "W9_RoadRunner_Certified.pdf",
+          "extractedData": {
+            "vendorName": "RoadRunner Freightways Inc",
+            "taxIdOrEin": "XX-XXX3342",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-03-05T08:35:00Z"
+        }
+      ],
+      "createdAt": "2026-03-05T08:30:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Summit Facility Care",
+      "contactEmail": "accounting@summit.io",
+      "type": "Facilities",
+      "status": "ACTION_REQUIRED",
+      "documents": [
+        {
+          "id": "doc-summit-coi",
+          "type": "COI",
+          "fileName": "COI_Summit_2027.pdf",
+          "extractedData": {
+            "vendorName": "Summit Facility Care LLC",
+            "expirationDate": "2027-08-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.96,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-03-01T11:00:00Z"
+        },
+        {
+          "id": "doc-summit-w9",
+          "type": "W9",
+          "fileName": "W9_Summit_MissingEIN.pdf",
+          "extractedData": {
+            "vendorName": "Summit Facility Care LLC",
+            "isSigned": false,
+            "confidenceScore": 0.88,
+            "missingFields": [
+              "Missing Employer Identification Number (EIN)",
+              "Signature block incomplete"
+            ]
+          },
+          "status": "INCOMPLETE",
+          "createdAt": "2026-03-01T11:05:00Z"
+        }
+      ],
+      "createdAt": "2026-03-01T11:00:00Z",
+      "updatedAt": "2026-03-01T11:05:00Z"
+    },
+    {
+      "id": "7",
+      "name": "FlexTalent Solutions Inc",
+      "contactEmail": "compliance@flextalent.co",
+      "type": "HR Platform",
+      "status": "ACTION_REQUIRED",
+      "documents": [
+        {
+          "id": "doc-flextalent-coi",
+          "type": "COI",
+          "fileName": "COI_FlexTalent_2027.pdf",
+          "extractedData": {
+            "vendorName": "FlexTalent Solutions Inc",
+            "expirationDate": "2027-08-12",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.94,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-06-01T14:00:00Z"
+        },
+        {
+          "id": "doc-flextalent-w9",
+          "type": "W9",
+          "fileName": "W9_FlexTalent_Unsigned.pdf",
+          "extractedData": {
+            "vendorName": "FlexTalent Solutions Inc",
+            "taxIdOrEin": "XX-XXX9281",
+            "isSigned": false,
+            "confidenceScore": 0.91,
+            "missingFields": [
+              "Signature and date missing from Form W-9"
+            ]
+          },
+          "status": "INCOMPLETE",
+          "createdAt": "2026-06-01T14:05:00Z"
+        }
+      ],
+      "createdAt": "2026-06-01T14:00:00Z",
+      "updatedAt": "2026-06-01T14:05:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Mid-Atlantic Freight Corp",
+      "contactEmail": "billing@matfreight.com",
+      "type": "Logistics",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-2-coi",
+          "type": "COI",
+          "fileName": "COI_MidAtlanticFreightCorp_2026.pdf",
+          "extractedData": {
+            "vendorName": "Mid-Atlantic Freight Corp",
+            "expirationDate": "2026-10-24",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 16 days on 2026-10-24"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-2-w9",
+          "type": "W9",
+          "fileName": "W9_MidAtlanticFreightCorp_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Mid-Atlantic Freight Corp",
+            "taxIdOrEin": "XX-XXX4102",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Insight Tech Partners LLC",
+      "contactEmail": "billing@insighttech.com",
+      "type": "Staffing",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-6-coi",
+          "type": "COI",
+          "fileName": "COI_InsightTechPartnersLLC_2026.pdf",
+          "extractedData": {
+            "vendorName": "Insight Tech Partners LLC",
+            "expirationDate": "2026-10-20",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 12 days on 2026-10-20"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-6-w9",
+          "type": "W9",
+          "fileName": "W9_InsightTechPartnersLLC_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Insight Tech Partners LLC",
+            "taxIdOrEin": "XX-XXX4109",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "11",
+      "name": "Pacific Northwest Fleet LLC",
+      "contactEmail": "dispatch@pnwfleet.com",
+      "type": "Logistics",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-11-coi",
+          "type": "COI",
+          "fileName": "COI_PacificNorthwestFleetLLC_2026.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Northwest Fleet LLC",
+            "expirationDate": "2026-10-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 14 days on 2026-10-22"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-11-w9",
+          "type": "W9",
+          "fileName": "W9_PacificNorthwestFleetLLC_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Northwest Fleet LLC",
+            "taxIdOrEin": "XX-XXX7182",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "12",
+      "name": "BlueSky Air Cargo Inc",
+      "contactEmail": "accounts@blueskycargo.aero",
+      "type": "Logistics",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-12-coi",
+          "type": "COI",
+          "fileName": "COI_BlueSkyAirCargoInc_2026.pdf",
+          "extractedData": {
+            "vendorName": "BlueSky Air Cargo Inc",
+            "expirationDate": "2026-10-28",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 20 days on 2026-10-28"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-12-w9",
+          "type": "W9",
+          "fileName": "W9_BlueSkyAirCargoInc_Signed.pdf",
+          "extractedData": {
+            "vendorName": "BlueSky Air Cargo Inc",
+            "taxIdOrEin": "XX-XXX9301",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "13",
+      "name": "Titan Logistics Group",
+      "contactEmail": "ar@titanlogistics.com",
+      "type": "Logistics",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-13-coi",
+          "type": "COI",
+          "fileName": "COI_TitanLogisticsGroup_2026.pdf",
+          "extractedData": {
+            "vendorName": "Titan Logistics Group",
+            "expirationDate": "2026-10-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 11 days on 2026-10-19"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-13-w9",
+          "type": "W9",
+          "fileName": "W9_TitanLogisticsGroup_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Titan Logistics Group",
+            "taxIdOrEin": "XX-XXX5549",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "14",
+      "name": "HarborPoint Security Services",
+      "contactEmail": "admin@harborpointsec.com",
+      "type": "Facilities",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-14-coi",
+          "type": "COI",
+          "fileName": "COI_HarborPointSecurityServices_2026.pdf",
+          "extractedData": {
+            "vendorName": "HarborPoint Security Services",
+            "expirationDate": "2026-11-02",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 25 days on 2026-11-02"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-14-w9",
+          "type": "W9",
+          "fileName": "W9_HarborPointSecurityServices_Signed.pdf",
+          "extractedData": {
+            "vendorName": "HarborPoint Security Services",
+            "taxIdOrEin": "XX-XXX2188",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "15",
+      "name": "Apex Dispatch Systems",
+      "contactEmail": "ops@apexdispatch.net",
+      "type": "Other",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-15-coi",
+          "type": "COI",
+          "fileName": "COI_ApexDispatchSystems_2026.pdf",
+          "extractedData": {
+            "vendorName": "Apex Dispatch Systems",
+            "expirationDate": "2026-10-26",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 18 days on 2026-10-26"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-15-w9",
+          "type": "W9",
+          "fileName": "W9_ApexDispatchSystems_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Apex Dispatch Systems",
+            "taxIdOrEin": "XX-XXX6641",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "16",
+      "name": "Cascade Environmental LLC",
+      "contactEmail": "safety@cascadeenv.com",
+      "type": "Facilities",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-16-coi",
+          "type": "COI",
+          "fileName": "COI_CascadeEnvironmentalLLC_2026.pdf",
+          "extractedData": {
+            "vendorName": "Cascade Environmental LLC",
+            "expirationDate": "2026-10-29",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 21 days on 2026-10-29"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-16-w9",
+          "type": "W9",
+          "fileName": "W9_CascadeEnvironmentalLLC_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cascade Environmental LLC",
+            "taxIdOrEin": "XX-XXX3822",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "17",
+      "name": "Frontline Staffing Agency",
+      "contactEmail": "payables@frontlinestaff.com",
+      "type": "Staffing",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-17-coi",
+          "type": "COI",
+          "fileName": "COI_FrontlineStaffingAgency_2026.pdf",
+          "extractedData": {
+            "vendorName": "Frontline Staffing Agency",
+            "expirationDate": "2026-11-05",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 28 days on 2026-11-05"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-17-w9",
+          "type": "W9",
+          "fileName": "W9_FrontlineStaffingAgency_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Frontline Staffing Agency",
+            "taxIdOrEin": "XX-XXX1944",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "18",
+      "name": "Atlas Fleet Maintenance Corp",
+      "contactEmail": "service@atlasfleetmaint.com",
+      "type": "Logistics",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-18-coi",
+          "type": "COI",
+          "fileName": "COI_AtlasFleetMaintenanceCorp_2026.pdf",
+          "extractedData": {
+            "vendorName": "Atlas Fleet Maintenance Corp",
+            "expirationDate": "2026-10-31",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 23 days on 2026-10-31"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-18-w9",
+          "type": "W9",
+          "fileName": "W9_AtlasFleetMaintenanceCorp_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Atlas Fleet Maintenance Corp",
+            "taxIdOrEin": "XX-XXX8022",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "19",
+      "name": "SwiftRail Intermodal LLC",
+      "contactEmail": "freight@swiftrailintermodal.com",
+      "type": "Logistics",
+      "status": "EXPIRING_SOON",
+      "documents": [
+        {
+          "id": "doc-19-coi",
+          "type": "COI",
+          "fileName": "COI_SwiftRailIntermodalLLC_2026.pdf",
+          "extractedData": {
+            "vendorName": "SwiftRail Intermodal LLC",
+            "expirationDate": "2026-11-01",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.97,
+            "missingFields": [
+              "Policy expires in 24 days on 2026-11-01"
+            ]
+          },
+          "status": "EXPIRING_SOON",
+          "createdAt": "2026-02-10T14:20:00Z"
+        },
+        {
+          "id": "doc-19-w9",
+          "type": "W9",
+          "fileName": "W9_SwiftRailIntermodalLLC_Signed.pdf",
+          "extractedData": {
+            "vendorName": "SwiftRail Intermodal LLC",
+            "taxIdOrEin": "XX-XXX9173",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-02-10T14:25:00Z"
+        }
+      ],
+      "createdAt": "2026-02-10T14:20:00Z",
+      "updatedAt": "2026-10-05T09:12:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Commercial Express HVAC Inc",
+      "contactEmail": "office@cexpress.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-cexpress-coi",
+          "type": "COI",
+          "fileName": "COI_CommercialExpress_2027.pdf",
+          "extractedData": {
+            "vendorName": "Commercial Express HVAC Inc",
+            "expirationDate": "2027-02-10",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-18T09:15:00Z"
+        },
+        {
+          "id": "doc-cexpress-w9",
+          "type": "W9",
+          "fileName": "W9_CommercialExpress.pdf",
+          "extractedData": {
+            "vendorName": "Commercial Express HVAC Inc",
+            "taxIdOrEin": "XX-XXX2019",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-18T09:20:00Z"
+        }
+      ],
+      "createdAt": "2026-04-18T09:15:00Z",
+      "updatedAt": "2026-04-18T09:20:00Z"
+    },
+    {
+      "id": "5",
+      "name": "SteelCore Engineering Group",
+      "contactEmail": "invoices@steelcore.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-steelcore-coi",
+          "type": "COI",
+          "fileName": "COI_SteelCore_Umbrella.pdf",
+          "extractedData": {
+            "vendorName": "SteelCore Engineering Group",
+            "expirationDate": "2027-01-04",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 Umbrella",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-05-12T08:00:00Z"
+        },
+        {
+          "id": "doc-steelcore-w9",
+          "type": "W9",
+          "fileName": "W9_SteelCore_2026.pdf",
+          "extractedData": {
+            "vendorName": "SteelCore Engineering Group",
+            "taxIdOrEin": "XX-XXX8812",
+            "isSigned": true,
+            "confidenceScore": 0.98,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-05-12T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-05-12T08:00:00Z",
+      "updatedAt": "2026-05-12T08:05:00Z"
+    },
+    {
+      "id": "20",
+      "name": "Delta Transport LLC #20",
+      "contactEmail": "compliance@deltatrans.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-20-coi",
+          "type": "COI",
+          "fileName": "COI_Delta_2027.pdf",
+          "extractedData": {
+            "vendorName": "Delta Transport LLC #20",
+            "expirationDate": "2027-09-12",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-20-w9",
+          "type": "W9",
+          "fileName": "W9_Delta_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Delta Transport LLC #20",
+            "taxIdOrEin": "XX-XXX1740",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "21",
+      "name": "GreenLine Logistics Inc #21",
+      "contactEmail": "compliance@greenlinel.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-21-coi",
+          "type": "COI",
+          "fileName": "COI_GreenLine_2028.pdf",
+          "extractedData": {
+            "vendorName": "GreenLine Logistics Inc #21",
+            "expirationDate": "2028-10-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-21-w9",
+          "type": "W9",
+          "fileName": "W9_GreenLine_Signed.pdf",
+          "extractedData": {
+            "vendorName": "GreenLine Logistics Inc #21",
+            "taxIdOrEin": "XX-XXX1777",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "22",
+      "name": "Cardinal Freight Solutions #22",
+      "contactEmail": "compliance@cardinalfr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-22-coi",
+          "type": "COI",
+          "fileName": "COI_Cardinal_2027.pdf",
+          "extractedData": {
+            "vendorName": "Cardinal Freight Solutions #22",
+            "expirationDate": "2027-11-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-22-w9",
+          "type": "W9",
+          "fileName": "W9_Cardinal_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cardinal Freight Solutions #22",
+            "taxIdOrEin": "XX-XXX1814",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "23",
+      "name": "Matrix Hauling Corp #23",
+      "contactEmail": "compliance@matrixhaul.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-23-coi",
+          "type": "COI",
+          "fileName": "COI_Matrix_2028.pdf",
+          "extractedData": {
+            "vendorName": "Matrix Hauling Corp #23",
+            "expirationDate": "2028-12-15",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-23-w9",
+          "type": "W9",
+          "fileName": "W9_Matrix_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Matrix Hauling Corp #23",
+            "taxIdOrEin": "XX-XXX1851",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "24",
+      "name": "Beacon Carrier Group #24",
+      "contactEmail": "compliance@beaconcarr.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-24-coi",
+          "type": "COI",
+          "fileName": "COI_Beacon_2027.pdf",
+          "extractedData": {
+            "vendorName": "Beacon Carrier Group #24",
+            "expirationDate": "2027-01-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-24-w9",
+          "type": "W9",
+          "fileName": "W9_Beacon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Beacon Carrier Group #24",
+            "taxIdOrEin": "XX-XXX1888",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "25",
+      "name": "Trinity Transport LLC #25",
+      "contactEmail": "compliance@trinitytra.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-25-coi",
+          "type": "COI",
+          "fileName": "COI_Trinity_2028.pdf",
+          "extractedData": {
+            "vendorName": "Trinity Transport LLC #25",
+            "expirationDate": "2028-02-17",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-25-w9",
+          "type": "W9",
+          "fileName": "W9_Trinity_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Trinity Transport LLC #25",
+            "taxIdOrEin": "XX-XXX1925",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "26",
+      "name": "Summit Logistics Inc #26",
+      "contactEmail": "compliance@summitlogi.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-26-coi",
+          "type": "COI",
+          "fileName": "COI_Summit_2027.pdf",
+          "extractedData": {
+            "vendorName": "Summit Logistics Inc #26",
+            "expirationDate": "2027-03-18",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-26-w9",
+          "type": "W9",
+          "fileName": "W9_Summit_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Summit Logistics Inc #26",
+            "taxIdOrEin": "XX-XXX1962",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "27",
+      "name": "Apex Freight Solutions #27",
+      "contactEmail": "compliance@apexfreigh.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-27-coi",
+          "type": "COI",
+          "fileName": "COI_Apex_2028.pdf",
+          "extractedData": {
+            "vendorName": "Apex Freight Solutions #27",
+            "expirationDate": "2028-04-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-27-w9",
+          "type": "W9",
+          "fileName": "W9_Apex_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Apex Freight Solutions #27",
+            "taxIdOrEin": "XX-XXX1999",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "28",
+      "name": "Horizon Hauling Corp #28",
+      "contactEmail": "compliance@horizonhau.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-28-coi",
+          "type": "COI",
+          "fileName": "COI_Horizon_2027.pdf",
+          "extractedData": {
+            "vendorName": "Horizon Hauling Corp #28",
+            "expirationDate": "2027-05-20",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-28-w9",
+          "type": "W9",
+          "fileName": "W9_Horizon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Horizon Hauling Corp #28",
+            "taxIdOrEin": "XX-XXX2036",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "29",
+      "name": "Pioneer Carrier Group #29",
+      "contactEmail": "compliance@pioneercar.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-29-coi",
+          "type": "COI",
+          "fileName": "COI_Pioneer_2028.pdf",
+          "extractedData": {
+            "vendorName": "Pioneer Carrier Group #29",
+            "expirationDate": "2028-06-21",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-29-w9",
+          "type": "W9",
+          "fileName": "W9_Pioneer_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pioneer Carrier Group #29",
+            "taxIdOrEin": "XX-XXX2073",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "30",
+      "name": "Falcon Transport LLC #30",
+      "contactEmail": "compliance@falcontran.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-30-coi",
+          "type": "COI",
+          "fileName": "COI_Falcon_2027.pdf",
+          "extractedData": {
+            "vendorName": "Falcon Transport LLC #30",
+            "expirationDate": "2027-07-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-30-w9",
+          "type": "W9",
+          "fileName": "W9_Falcon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Falcon Transport LLC #30",
+            "taxIdOrEin": "XX-XXX2110",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "31",
+      "name": "Eagle Logistics Inc #31",
+      "contactEmail": "compliance@eaglelogis.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-31-coi",
+          "type": "COI",
+          "fileName": "COI_Eagle_2028.pdf",
+          "extractedData": {
+            "vendorName": "Eagle Logistics Inc #31",
+            "expirationDate": "2028-08-23",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-31-w9",
+          "type": "W9",
+          "fileName": "W9_Eagle_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Eagle Logistics Inc #31",
+            "taxIdOrEin": "XX-XXX2147",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "32",
+      "name": "Sterling Freight Solutions #32",
+      "contactEmail": "compliance@sterlingfr.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-32-coi",
+          "type": "COI",
+          "fileName": "COI_Sterling_2027.pdf",
+          "extractedData": {
+            "vendorName": "Sterling Freight Solutions #32",
+            "expirationDate": "2027-09-24",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-32-w9",
+          "type": "W9",
+          "fileName": "W9_Sterling_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sterling Freight Solutions #32",
+            "taxIdOrEin": "XX-XXX2184",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "33",
+      "name": "CrossRoads Hauling Corp #33",
+      "contactEmail": "compliance@crossroads.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-33-coi",
+          "type": "COI",
+          "fileName": "COI_CrossRoads_2028.pdf",
+          "extractedData": {
+            "vendorName": "CrossRoads Hauling Corp #33",
+            "expirationDate": "2028-10-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-33-w9",
+          "type": "W9",
+          "fileName": "W9_CrossRoads_Signed.pdf",
+          "extractedData": {
+            "vendorName": "CrossRoads Hauling Corp #33",
+            "taxIdOrEin": "XX-XXX2221",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "34",
+      "name": "Quantum Carrier Group #34",
+      "contactEmail": "compliance@quantumcar.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-34-coi",
+          "type": "COI",
+          "fileName": "COI_Quantum_2027.pdf",
+          "extractedData": {
+            "vendorName": "Quantum Carrier Group #34",
+            "expirationDate": "2027-11-26",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-34-w9",
+          "type": "W9",
+          "fileName": "W9_Quantum_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Quantum Carrier Group #34",
+            "taxIdOrEin": "XX-XXX2258",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "35",
+      "name": "Synergy Transport LLC #35",
+      "contactEmail": "compliance@synergytra.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-35-coi",
+          "type": "COI",
+          "fileName": "COI_Synergy_2028.pdf",
+          "extractedData": {
+            "vendorName": "Synergy Transport LLC #35",
+            "expirationDate": "2028-12-27",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-35-w9",
+          "type": "W9",
+          "fileName": "W9_Synergy_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Synergy Transport LLC #35",
+            "taxIdOrEin": "XX-XXX2295",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "36",
+      "name": "NextGen Logistics Inc #36",
+      "contactEmail": "compliance@nextgenlog.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-36-coi",
+          "type": "COI",
+          "fileName": "COI_NextGen_2027.pdf",
+          "extractedData": {
+            "vendorName": "NextGen Logistics Inc #36",
+            "expirationDate": "2027-01-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-36-w9",
+          "type": "W9",
+          "fileName": "W9_NextGen_Signed.pdf",
+          "extractedData": {
+            "vendorName": "NextGen Logistics Inc #36",
+            "taxIdOrEin": "XX-XXX2332",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "37",
+      "name": "Evergreen Freight Solutions #37",
+      "contactEmail": "compliance@evergreenf.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-37-coi",
+          "type": "COI",
+          "fileName": "COI_Evergreen_2028.pdf",
+          "extractedData": {
+            "vendorName": "Evergreen Freight Solutions #37",
+            "expirationDate": "2028-02-11",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-37-w9",
+          "type": "W9",
+          "fileName": "W9_Evergreen_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Evergreen Freight Solutions #37",
+            "taxIdOrEin": "XX-XXX2369",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "38",
+      "name": "Vanguard Hauling Corp #38",
+      "contactEmail": "compliance@vanguardha.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-38-coi",
+          "type": "COI",
+          "fileName": "COI_Vanguard_2027.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Hauling Corp #38",
+            "expirationDate": "2027-03-12",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-38-w9",
+          "type": "W9",
+          "fileName": "W9_Vanguard_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Hauling Corp #38",
+            "taxIdOrEin": "XX-XXX2406",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "39",
+      "name": "SilverRock Carrier Group #39",
+      "contactEmail": "compliance@silverrock.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-39-coi",
+          "type": "COI",
+          "fileName": "COI_SilverRock_2028.pdf",
+          "extractedData": {
+            "vendorName": "SilverRock Carrier Group #39",
+            "expirationDate": "2028-04-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-39-w9",
+          "type": "W9",
+          "fileName": "W9_SilverRock_Signed.pdf",
+          "extractedData": {
+            "vendorName": "SilverRock Carrier Group #39",
+            "taxIdOrEin": "XX-XXX2443",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "40",
+      "name": "Highland Transport LLC #40",
+      "contactEmail": "compliance@highlandtr.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-40-coi",
+          "type": "COI",
+          "fileName": "COI_Highland_2027.pdf",
+          "extractedData": {
+            "vendorName": "Highland Transport LLC #40",
+            "expirationDate": "2027-05-14",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-40-w9",
+          "type": "W9",
+          "fileName": "W9_Highland_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Highland Transport LLC #40",
+            "taxIdOrEin": "XX-XXX2480",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "41",
+      "name": "Ironclad Logistics Inc #41",
+      "contactEmail": "compliance@ironcladlo.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-41-coi",
+          "type": "COI",
+          "fileName": "COI_Ironclad_2028.pdf",
+          "extractedData": {
+            "vendorName": "Ironclad Logistics Inc #41",
+            "expirationDate": "2028-06-15",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-41-w9",
+          "type": "W9",
+          "fileName": "W9_Ironclad_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Ironclad Logistics Inc #41",
+            "taxIdOrEin": "XX-XXX2517",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "42",
+      "name": "BlueRidge Freight Solutions #42",
+      "contactEmail": "compliance@blueridgef.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-42-coi",
+          "type": "COI",
+          "fileName": "COI_BlueRidge_2027.pdf",
+          "extractedData": {
+            "vendorName": "BlueRidge Freight Solutions #42",
+            "expirationDate": "2027-07-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-42-w9",
+          "type": "W9",
+          "fileName": "W9_BlueRidge_Signed.pdf",
+          "extractedData": {
+            "vendorName": "BlueRidge Freight Solutions #42",
+            "taxIdOrEin": "XX-XXX2554",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "43",
+      "name": "Pacific Hauling Corp #43",
+      "contactEmail": "compliance@pacifichau.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-43-coi",
+          "type": "COI",
+          "fileName": "COI_Pacific_2028.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Hauling Corp #43",
+            "expirationDate": "2028-08-17",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-43-w9",
+          "type": "W9",
+          "fileName": "W9_Pacific_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Hauling Corp #43",
+            "taxIdOrEin": "XX-XXX2591",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "44",
+      "name": "Atlantic Carrier Group #44",
+      "contactEmail": "compliance@atlanticca.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-44-coi",
+          "type": "COI",
+          "fileName": "COI_Atlantic_2027.pdf",
+          "extractedData": {
+            "vendorName": "Atlantic Carrier Group #44",
+            "expirationDate": "2027-09-18",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-44-w9",
+          "type": "W9",
+          "fileName": "W9_Atlantic_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Atlantic Carrier Group #44",
+            "taxIdOrEin": "XX-XXX2628",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "45",
+      "name": "Sunbelt Transport LLC #45",
+      "contactEmail": "compliance@sunbelttra.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-45-coi",
+          "type": "COI",
+          "fileName": "COI_Sunbelt_2028.pdf",
+          "extractedData": {
+            "vendorName": "Sunbelt Transport LLC #45",
+            "expirationDate": "2028-10-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-45-w9",
+          "type": "W9",
+          "fileName": "W9_Sunbelt_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sunbelt Transport LLC #45",
+            "taxIdOrEin": "XX-XXX2665",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "46",
+      "name": "Keystone Logistics Inc #46",
+      "contactEmail": "compliance@keystonelo.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-46-coi",
+          "type": "COI",
+          "fileName": "COI_Keystone_2027.pdf",
+          "extractedData": {
+            "vendorName": "Keystone Logistics Inc #46",
+            "expirationDate": "2027-11-20",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-46-w9",
+          "type": "W9",
+          "fileName": "W9_Keystone_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Keystone Logistics Inc #46",
+            "taxIdOrEin": "XX-XXX2702",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "47",
+      "name": "Cornerstone Freight Solutions #47",
+      "contactEmail": "compliance@cornerston.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-47-coi",
+          "type": "COI",
+          "fileName": "COI_Cornerstone_2028.pdf",
+          "extractedData": {
+            "vendorName": "Cornerstone Freight Solutions #47",
+            "expirationDate": "2028-12-21",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-47-w9",
+          "type": "W9",
+          "fileName": "W9_Cornerstone_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cornerstone Freight Solutions #47",
+            "taxIdOrEin": "XX-XXX2739",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "48",
+      "name": "Palmetto Hauling Corp #48",
+      "contactEmail": "compliance@palmettoha.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-48-coi",
+          "type": "COI",
+          "fileName": "COI_Palmetto_2027.pdf",
+          "extractedData": {
+            "vendorName": "Palmetto Hauling Corp #48",
+            "expirationDate": "2027-01-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-48-w9",
+          "type": "W9",
+          "fileName": "W9_Palmetto_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Palmetto Hauling Corp #48",
+            "taxIdOrEin": "XX-XXX2776",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "49",
+      "name": "GreatLakes Carrier Group #49",
+      "contactEmail": "compliance@greatlakes.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-49-coi",
+          "type": "COI",
+          "fileName": "COI_GreatLakes_2028.pdf",
+          "extractedData": {
+            "vendorName": "GreatLakes Carrier Group #49",
+            "expirationDate": "2028-02-23",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-49-w9",
+          "type": "W9",
+          "fileName": "W9_GreatLakes_Signed.pdf",
+          "extractedData": {
+            "vendorName": "GreatLakes Carrier Group #49",
+            "taxIdOrEin": "XX-XXX2813",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "50",
+      "name": "Frontier Transport LLC #50",
+      "contactEmail": "compliance@frontiertr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-50-coi",
+          "type": "COI",
+          "fileName": "COI_Frontier_2027.pdf",
+          "extractedData": {
+            "vendorName": "Frontier Transport LLC #50",
+            "expirationDate": "2027-03-24",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-50-w9",
+          "type": "W9",
+          "fileName": "W9_Frontier_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Frontier Transport LLC #50",
+            "taxIdOrEin": "XX-XXX2850",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "51",
+      "name": "Redwood Logistics Inc #51",
+      "contactEmail": "compliance@redwoodlog.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-51-coi",
+          "type": "COI",
+          "fileName": "COI_Redwood_2028.pdf",
+          "extractedData": {
+            "vendorName": "Redwood Logistics Inc #51",
+            "expirationDate": "2028-04-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-51-w9",
+          "type": "W9",
+          "fileName": "W9_Redwood_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Redwood Logistics Inc #51",
+            "taxIdOrEin": "XX-XXX2887",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "52",
+      "name": "Timberline Freight Solutions #52",
+      "contactEmail": "compliance@timberline.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-52-coi",
+          "type": "COI",
+          "fileName": "COI_Timberline_2027.pdf",
+          "extractedData": {
+            "vendorName": "Timberline Freight Solutions #52",
+            "expirationDate": "2027-05-26",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-52-w9",
+          "type": "W9",
+          "fileName": "W9_Timberline_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Timberline Freight Solutions #52",
+            "taxIdOrEin": "XX-XXX2924",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "53",
+      "name": "Sierra Hauling Corp #53",
+      "contactEmail": "compliance@sierrahaul.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-53-coi",
+          "type": "COI",
+          "fileName": "COI_Sierra_2028.pdf",
+          "extractedData": {
+            "vendorName": "Sierra Hauling Corp #53",
+            "expirationDate": "2028-06-27",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-53-w9",
+          "type": "W9",
+          "fileName": "W9_Sierra_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sierra Hauling Corp #53",
+            "taxIdOrEin": "XX-XXX2961",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "54",
+      "name": "Mojave Carrier Group #54",
+      "contactEmail": "compliance@mojavecarr.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-54-coi",
+          "type": "COI",
+          "fileName": "COI_Mojave_2027.pdf",
+          "extractedData": {
+            "vendorName": "Mojave Carrier Group #54",
+            "expirationDate": "2027-07-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-54-w9",
+          "type": "W9",
+          "fileName": "W9_Mojave_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Mojave Carrier Group #54",
+            "taxIdOrEin": "XX-XXX2998",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "55",
+      "name": "Liberty Transport LLC #55",
+      "contactEmail": "compliance@libertytra.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-55-coi",
+          "type": "COI",
+          "fileName": "COI_Liberty_2028.pdf",
+          "extractedData": {
+            "vendorName": "Liberty Transport LLC #55",
+            "expirationDate": "2028-08-11",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-55-w9",
+          "type": "W9",
+          "fileName": "W9_Liberty_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Liberty Transport LLC #55",
+            "taxIdOrEin": "XX-XXX3035",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "56",
+      "name": "Patriot Logistics Inc #56",
+      "contactEmail": "compliance@patriotlog.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-56-coi",
+          "type": "COI",
+          "fileName": "COI_Patriot_2027.pdf",
+          "extractedData": {
+            "vendorName": "Patriot Logistics Inc #56",
+            "expirationDate": "2027-09-12",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-56-w9",
+          "type": "W9",
+          "fileName": "W9_Patriot_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Patriot Logistics Inc #56",
+            "taxIdOrEin": "XX-XXX3072",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "57",
+      "name": "Dominion Freight Solutions #57",
+      "contactEmail": "compliance@dominionfr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-57-coi",
+          "type": "COI",
+          "fileName": "COI_Dominion_2028.pdf",
+          "extractedData": {
+            "vendorName": "Dominion Freight Solutions #57",
+            "expirationDate": "2028-10-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-57-w9",
+          "type": "W9",
+          "fileName": "W9_Dominion_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Dominion Freight Solutions #57",
+            "taxIdOrEin": "XX-XXX3109",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "58",
+      "name": "Capitol Hauling Corp #58",
+      "contactEmail": "compliance@capitolhau.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-58-coi",
+          "type": "COI",
+          "fileName": "COI_Capitol_2027.pdf",
+          "extractedData": {
+            "vendorName": "Capitol Hauling Corp #58",
+            "expirationDate": "2027-11-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-58-w9",
+          "type": "W9",
+          "fileName": "W9_Capitol_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Capitol Hauling Corp #58",
+            "taxIdOrEin": "XX-XXX3146",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "59",
+      "name": "Empire Carrier Group #59",
+      "contactEmail": "compliance@empirecarr.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-59-coi",
+          "type": "COI",
+          "fileName": "COI_Empire_2028.pdf",
+          "extractedData": {
+            "vendorName": "Empire Carrier Group #59",
+            "expirationDate": "2028-12-15",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-59-w9",
+          "type": "W9",
+          "fileName": "W9_Empire_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Empire Carrier Group #59",
+            "taxIdOrEin": "XX-XXX3183",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "60",
+      "name": "Allied Transport LLC #60",
+      "contactEmail": "compliance@alliedtran.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-60-coi",
+          "type": "COI",
+          "fileName": "COI_Allied_2027.pdf",
+          "extractedData": {
+            "vendorName": "Allied Transport LLC #60",
+            "expirationDate": "2027-01-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-60-w9",
+          "type": "W9",
+          "fileName": "W9_Allied_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Allied Transport LLC #60",
+            "taxIdOrEin": "XX-XXX3220",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "61",
+      "name": "Unified Logistics Inc #61",
+      "contactEmail": "compliance@unifiedlog.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-61-coi",
+          "type": "COI",
+          "fileName": "COI_Unified_2028.pdf",
+          "extractedData": {
+            "vendorName": "Unified Logistics Inc #61",
+            "expirationDate": "2028-02-17",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-61-w9",
+          "type": "W9",
+          "fileName": "W9_Unified_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Unified Logistics Inc #61",
+            "taxIdOrEin": "XX-XXX3257",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "62",
+      "name": "Paramount Freight Solutions #62",
+      "contactEmail": "compliance@paramountf.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-62-coi",
+          "type": "COI",
+          "fileName": "COI_Paramount_2027.pdf",
+          "extractedData": {
+            "vendorName": "Paramount Freight Solutions #62",
+            "expirationDate": "2027-03-18",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-62-w9",
+          "type": "W9",
+          "fileName": "W9_Paramount_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Paramount Freight Solutions #62",
+            "taxIdOrEin": "XX-XXX3294",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "63",
+      "name": "Pinnacle Hauling Corp #63",
+      "contactEmail": "compliance@pinnacleha.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-63-coi",
+          "type": "COI",
+          "fileName": "COI_Pinnacle_2028.pdf",
+          "extractedData": {
+            "vendorName": "Pinnacle Hauling Corp #63",
+            "expirationDate": "2028-04-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-63-w9",
+          "type": "W9",
+          "fileName": "W9_Pinnacle_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pinnacle Hauling Corp #63",
+            "taxIdOrEin": "XX-XXX3331",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "64",
+      "name": "Zenith Carrier Group #64",
+      "contactEmail": "compliance@zenithcarr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-64-coi",
+          "type": "COI",
+          "fileName": "COI_Zenith_2027.pdf",
+          "extractedData": {
+            "vendorName": "Zenith Carrier Group #64",
+            "expirationDate": "2027-05-20",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-64-w9",
+          "type": "W9",
+          "fileName": "W9_Zenith_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Zenith Carrier Group #64",
+            "taxIdOrEin": "XX-XXX3368",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "65",
+      "name": "Polaris Transport LLC #65",
+      "contactEmail": "compliance@polaristra.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-65-coi",
+          "type": "COI",
+          "fileName": "COI_Polaris_2028.pdf",
+          "extractedData": {
+            "vendorName": "Polaris Transport LLC #65",
+            "expirationDate": "2028-06-21",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-65-w9",
+          "type": "W9",
+          "fileName": "W9_Polaris_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Polaris Transport LLC #65",
+            "taxIdOrEin": "XX-XXX3405",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "66",
+      "name": "NorthStar Logistics Inc #66",
+      "contactEmail": "compliance@northstarl.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-66-coi",
+          "type": "COI",
+          "fileName": "COI_NorthStar_2027.pdf",
+          "extractedData": {
+            "vendorName": "NorthStar Logistics Inc #66",
+            "expirationDate": "2027-07-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-66-w9",
+          "type": "W9",
+          "fileName": "W9_NorthStar_Signed.pdf",
+          "extractedData": {
+            "vendorName": "NorthStar Logistics Inc #66",
+            "taxIdOrEin": "XX-XXX3442",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "67",
+      "name": "Delta Hauling Corp #67",
+      "contactEmail": "compliance@deltahauli.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-67-coi",
+          "type": "COI",
+          "fileName": "COI_Delta_2028.pdf",
+          "extractedData": {
+            "vendorName": "Delta Hauling Corp #67",
+            "expirationDate": "2028-08-23",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-67-w9",
+          "type": "W9",
+          "fileName": "W9_Delta_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Delta Hauling Corp #67",
+            "taxIdOrEin": "XX-XXX3479",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "68",
+      "name": "GreenLine Carrier Group #68",
+      "contactEmail": "compliance@greenlinec.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-68-coi",
+          "type": "COI",
+          "fileName": "COI_GreenLine_2027.pdf",
+          "extractedData": {
+            "vendorName": "GreenLine Carrier Group #68",
+            "expirationDate": "2027-09-24",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-68-w9",
+          "type": "W9",
+          "fileName": "W9_GreenLine_Signed.pdf",
+          "extractedData": {
+            "vendorName": "GreenLine Carrier Group #68",
+            "taxIdOrEin": "XX-XXX3516",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "69",
+      "name": "Cardinal Supply Chain LLC #69",
+      "contactEmail": "compliance@cardinalsu.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-69-coi",
+          "type": "COI",
+          "fileName": "COI_Cardinal_2028.pdf",
+          "extractedData": {
+            "vendorName": "Cardinal Supply Chain LLC #69",
+            "expirationDate": "2028-10-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-69-w9",
+          "type": "W9",
+          "fileName": "W9_Cardinal_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cardinal Supply Chain LLC #69",
+            "taxIdOrEin": "XX-XXX3553",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "70",
+      "name": "Matrix Logistics Inc #70",
+      "contactEmail": "compliance@matrixlogi.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-70-coi",
+          "type": "COI",
+          "fileName": "COI_Matrix_2027.pdf",
+          "extractedData": {
+            "vendorName": "Matrix Logistics Inc #70",
+            "expirationDate": "2027-11-26",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-70-w9",
+          "type": "W9",
+          "fileName": "W9_Matrix_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Matrix Logistics Inc #70",
+            "taxIdOrEin": "XX-XXX3590",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "71",
+      "name": "Beacon Freight Solutions #71",
+      "contactEmail": "compliance@beaconfrei.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-71-coi",
+          "type": "COI",
+          "fileName": "COI_Beacon_2028.pdf",
+          "extractedData": {
+            "vendorName": "Beacon Freight Solutions #71",
+            "expirationDate": "2028-12-27",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-71-w9",
+          "type": "W9",
+          "fileName": "W9_Beacon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Beacon Freight Solutions #71",
+            "taxIdOrEin": "XX-XXX3627",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "72",
+      "name": "Trinity Hauling Corp #72",
+      "contactEmail": "compliance@trinityhau.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-72-coi",
+          "type": "COI",
+          "fileName": "COI_Trinity_2027.pdf",
+          "extractedData": {
+            "vendorName": "Trinity Hauling Corp #72",
+            "expirationDate": "2027-01-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-72-w9",
+          "type": "W9",
+          "fileName": "W9_Trinity_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Trinity Hauling Corp #72",
+            "taxIdOrEin": "XX-XXX3664",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "73",
+      "name": "Summit Carrier Group #73",
+      "contactEmail": "compliance@summitcarr.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-73-coi",
+          "type": "COI",
+          "fileName": "COI_Summit_2028.pdf",
+          "extractedData": {
+            "vendorName": "Summit Carrier Group #73",
+            "expirationDate": "2028-02-11",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-73-w9",
+          "type": "W9",
+          "fileName": "W9_Summit_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Summit Carrier Group #73",
+            "taxIdOrEin": "XX-XXX3701",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "74",
+      "name": "Apex Supply Chain LLC #74",
+      "contactEmail": "compliance@apexsupply.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-74-coi",
+          "type": "COI",
+          "fileName": "COI_Apex_2027.pdf",
+          "extractedData": {
+            "vendorName": "Apex Supply Chain LLC #74",
+            "expirationDate": "2027-03-12",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-74-w9",
+          "type": "W9",
+          "fileName": "W9_Apex_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Apex Supply Chain LLC #74",
+            "taxIdOrEin": "XX-XXX3738",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "75",
+      "name": "Horizon Logistics Inc #75",
+      "contactEmail": "compliance@horizonlog.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-75-coi",
+          "type": "COI",
+          "fileName": "COI_Horizon_2028.pdf",
+          "extractedData": {
+            "vendorName": "Horizon Logistics Inc #75",
+            "expirationDate": "2028-04-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-75-w9",
+          "type": "W9",
+          "fileName": "W9_Horizon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Horizon Logistics Inc #75",
+            "taxIdOrEin": "XX-XXX3775",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "76",
+      "name": "Pioneer Freight Solutions #76",
+      "contactEmail": "compliance@pioneerfre.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-76-coi",
+          "type": "COI",
+          "fileName": "COI_Pioneer_2027.pdf",
+          "extractedData": {
+            "vendorName": "Pioneer Freight Solutions #76",
+            "expirationDate": "2027-05-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-76-w9",
+          "type": "W9",
+          "fileName": "W9_Pioneer_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pioneer Freight Solutions #76",
+            "taxIdOrEin": "XX-XXX3812",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "77",
+      "name": "Falcon Hauling Corp #77",
+      "contactEmail": "compliance@falconhaul.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-77-coi",
+          "type": "COI",
+          "fileName": "COI_Falcon_2028.pdf",
+          "extractedData": {
+            "vendorName": "Falcon Hauling Corp #77",
+            "expirationDate": "2028-06-15",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-77-w9",
+          "type": "W9",
+          "fileName": "W9_Falcon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Falcon Hauling Corp #77",
+            "taxIdOrEin": "XX-XXX3849",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "78",
+      "name": "Eagle Carrier Group #78",
+      "contactEmail": "compliance@eaglecarri.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-78-coi",
+          "type": "COI",
+          "fileName": "COI_Eagle_2027.pdf",
+          "extractedData": {
+            "vendorName": "Eagle Carrier Group #78",
+            "expirationDate": "2027-07-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-78-w9",
+          "type": "W9",
+          "fileName": "W9_Eagle_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Eagle Carrier Group #78",
+            "taxIdOrEin": "XX-XXX3886",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "79",
+      "name": "Sterling Supply Chain LLC #79",
+      "contactEmail": "compliance@sterlingsu.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-79-coi",
+          "type": "COI",
+          "fileName": "COI_Sterling_2028.pdf",
+          "extractedData": {
+            "vendorName": "Sterling Supply Chain LLC #79",
+            "expirationDate": "2028-08-17",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-79-w9",
+          "type": "W9",
+          "fileName": "W9_Sterling_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sterling Supply Chain LLC #79",
+            "taxIdOrEin": "XX-XXX3923",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "80",
+      "name": "CrossRoads Logistics Inc #80",
+      "contactEmail": "compliance@crossroads.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-80-coi",
+          "type": "COI",
+          "fileName": "COI_CrossRoads_2027.pdf",
+          "extractedData": {
+            "vendorName": "CrossRoads Logistics Inc #80",
+            "expirationDate": "2027-09-18",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-80-w9",
+          "type": "W9",
+          "fileName": "W9_CrossRoads_Signed.pdf",
+          "extractedData": {
+            "vendorName": "CrossRoads Logistics Inc #80",
+            "taxIdOrEin": "XX-XXX3960",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "81",
+      "name": "Quantum Freight Solutions #81",
+      "contactEmail": "compliance@quantumfre.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-81-coi",
+          "type": "COI",
+          "fileName": "COI_Quantum_2028.pdf",
+          "extractedData": {
+            "vendorName": "Quantum Freight Solutions #81",
+            "expirationDate": "2028-10-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-81-w9",
+          "type": "W9",
+          "fileName": "W9_Quantum_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Quantum Freight Solutions #81",
+            "taxIdOrEin": "XX-XXX3997",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "82",
+      "name": "Synergy Hauling Corp #82",
+      "contactEmail": "compliance@synergyhau.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-82-coi",
+          "type": "COI",
+          "fileName": "COI_Synergy_2027.pdf",
+          "extractedData": {
+            "vendorName": "Synergy Hauling Corp #82",
+            "expirationDate": "2027-11-20",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-82-w9",
+          "type": "W9",
+          "fileName": "W9_Synergy_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Synergy Hauling Corp #82",
+            "taxIdOrEin": "XX-XXX4034",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "83",
+      "name": "NextGen Carrier Group #83",
+      "contactEmail": "compliance@nextgencar.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-83-coi",
+          "type": "COI",
+          "fileName": "COI_NextGen_2028.pdf",
+          "extractedData": {
+            "vendorName": "NextGen Carrier Group #83",
+            "expirationDate": "2028-12-21",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-83-w9",
+          "type": "W9",
+          "fileName": "W9_NextGen_Signed.pdf",
+          "extractedData": {
+            "vendorName": "NextGen Carrier Group #83",
+            "taxIdOrEin": "XX-XXX4071",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "84",
+      "name": "Evergreen Supply Chain LLC #84",
+      "contactEmail": "compliance@evergreens.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-84-coi",
+          "type": "COI",
+          "fileName": "COI_Evergreen_2027.pdf",
+          "extractedData": {
+            "vendorName": "Evergreen Supply Chain LLC #84",
+            "expirationDate": "2027-01-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-84-w9",
+          "type": "W9",
+          "fileName": "W9_Evergreen_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Evergreen Supply Chain LLC #84",
+            "taxIdOrEin": "XX-XXX4108",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "85",
+      "name": "Vanguard Logistics Inc #85",
+      "contactEmail": "compliance@vanguardlo.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-85-coi",
+          "type": "COI",
+          "fileName": "COI_Vanguard_2028.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Logistics Inc #85",
+            "expirationDate": "2028-02-23",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-85-w9",
+          "type": "W9",
+          "fileName": "W9_Vanguard_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Logistics Inc #85",
+            "taxIdOrEin": "XX-XXX4145",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "86",
+      "name": "SilverRock Freight Solutions #86",
+      "contactEmail": "compliance@silverrock.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-86-coi",
+          "type": "COI",
+          "fileName": "COI_SilverRock_2027.pdf",
+          "extractedData": {
+            "vendorName": "SilverRock Freight Solutions #86",
+            "expirationDate": "2027-03-24",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-86-w9",
+          "type": "W9",
+          "fileName": "W9_SilverRock_Signed.pdf",
+          "extractedData": {
+            "vendorName": "SilverRock Freight Solutions #86",
+            "taxIdOrEin": "XX-XXX4182",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "87",
+      "name": "Highland Hauling Corp #87",
+      "contactEmail": "compliance@highlandha.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-87-coi",
+          "type": "COI",
+          "fileName": "COI_Highland_2028.pdf",
+          "extractedData": {
+            "vendorName": "Highland Hauling Corp #87",
+            "expirationDate": "2028-04-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-87-w9",
+          "type": "W9",
+          "fileName": "W9_Highland_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Highland Hauling Corp #87",
+            "taxIdOrEin": "XX-XXX4219",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "88",
+      "name": "Ironclad Carrier Group #88",
+      "contactEmail": "compliance@ironcladca.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-88-coi",
+          "type": "COI",
+          "fileName": "COI_Ironclad_2027.pdf",
+          "extractedData": {
+            "vendorName": "Ironclad Carrier Group #88",
+            "expirationDate": "2027-05-26",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-88-w9",
+          "type": "W9",
+          "fileName": "W9_Ironclad_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Ironclad Carrier Group #88",
+            "taxIdOrEin": "XX-XXX4256",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "89",
+      "name": "BlueRidge Supply Chain LLC #89",
+      "contactEmail": "compliance@blueridges.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-89-coi",
+          "type": "COI",
+          "fileName": "COI_BlueRidge_2028.pdf",
+          "extractedData": {
+            "vendorName": "BlueRidge Supply Chain LLC #89",
+            "expirationDate": "2028-06-27",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-89-w9",
+          "type": "W9",
+          "fileName": "W9_BlueRidge_Signed.pdf",
+          "extractedData": {
+            "vendorName": "BlueRidge Supply Chain LLC #89",
+            "taxIdOrEin": "XX-XXX4293",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "90",
+      "name": "Pacific Logistics Inc #90",
+      "contactEmail": "compliance@pacificlog.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-90-coi",
+          "type": "COI",
+          "fileName": "COI_Pacific_2027.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Logistics Inc #90",
+            "expirationDate": "2027-07-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-90-w9",
+          "type": "W9",
+          "fileName": "W9_Pacific_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Logistics Inc #90",
+            "taxIdOrEin": "XX-XXX4330",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "91",
+      "name": "Atlantic Freight Solutions #91",
+      "contactEmail": "compliance@atlanticfr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-91-coi",
+          "type": "COI",
+          "fileName": "COI_Atlantic_2028.pdf",
+          "extractedData": {
+            "vendorName": "Atlantic Freight Solutions #91",
+            "expirationDate": "2028-08-11",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-91-w9",
+          "type": "W9",
+          "fileName": "W9_Atlantic_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Atlantic Freight Solutions #91",
+            "taxIdOrEin": "XX-XXX4367",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "92",
+      "name": "Sunbelt Hauling Corp #92",
+      "contactEmail": "compliance@sunbelthau.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-92-coi",
+          "type": "COI",
+          "fileName": "COI_Sunbelt_2027.pdf",
+          "extractedData": {
+            "vendorName": "Sunbelt Hauling Corp #92",
+            "expirationDate": "2027-09-12",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-92-w9",
+          "type": "W9",
+          "fileName": "W9_Sunbelt_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sunbelt Hauling Corp #92",
+            "taxIdOrEin": "XX-XXX4404",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "93",
+      "name": "Keystone Carrier Group #93",
+      "contactEmail": "compliance@keystoneca.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-93-coi",
+          "type": "COI",
+          "fileName": "COI_Keystone_2028.pdf",
+          "extractedData": {
+            "vendorName": "Keystone Carrier Group #93",
+            "expirationDate": "2028-10-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-93-w9",
+          "type": "W9",
+          "fileName": "W9_Keystone_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Keystone Carrier Group #93",
+            "taxIdOrEin": "XX-XXX4441",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "94",
+      "name": "Cornerstone Supply Chain LLC #94",
+      "contactEmail": "compliance@cornerston.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-94-coi",
+          "type": "COI",
+          "fileName": "COI_Cornerstone_2027.pdf",
+          "extractedData": {
+            "vendorName": "Cornerstone Supply Chain LLC #94",
+            "expirationDate": "2027-11-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-94-w9",
+          "type": "W9",
+          "fileName": "W9_Cornerstone_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cornerstone Supply Chain LLC #94",
+            "taxIdOrEin": "XX-XXX4478",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "95",
+      "name": "Palmetto Logistics Inc #95",
+      "contactEmail": "compliance@palmettolo.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-95-coi",
+          "type": "COI",
+          "fileName": "COI_Palmetto_2028.pdf",
+          "extractedData": {
+            "vendorName": "Palmetto Logistics Inc #95",
+            "expirationDate": "2028-12-15",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-95-w9",
+          "type": "W9",
+          "fileName": "W9_Palmetto_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Palmetto Logistics Inc #95",
+            "taxIdOrEin": "XX-XXX4515",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "96",
+      "name": "GreatLakes Freight Solutions #96",
+      "contactEmail": "compliance@greatlakes.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-96-coi",
+          "type": "COI",
+          "fileName": "COI_GreatLakes_2027.pdf",
+          "extractedData": {
+            "vendorName": "GreatLakes Freight Solutions #96",
+            "expirationDate": "2027-01-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-96-w9",
+          "type": "W9",
+          "fileName": "W9_GreatLakes_Signed.pdf",
+          "extractedData": {
+            "vendorName": "GreatLakes Freight Solutions #96",
+            "taxIdOrEin": "XX-XXX4552",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "97",
+      "name": "Frontier Hauling Corp #97",
+      "contactEmail": "compliance@frontierha.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-97-coi",
+          "type": "COI",
+          "fileName": "COI_Frontier_2028.pdf",
+          "extractedData": {
+            "vendorName": "Frontier Hauling Corp #97",
+            "expirationDate": "2028-02-17",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-97-w9",
+          "type": "W9",
+          "fileName": "W9_Frontier_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Frontier Hauling Corp #97",
+            "taxIdOrEin": "XX-XXX4589",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "98",
+      "name": "Redwood Carrier Group #98",
+      "contactEmail": "compliance@redwoodcar.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-98-coi",
+          "type": "COI",
+          "fileName": "COI_Redwood_2027.pdf",
+          "extractedData": {
+            "vendorName": "Redwood Carrier Group #98",
+            "expirationDate": "2027-03-18",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-98-w9",
+          "type": "W9",
+          "fileName": "W9_Redwood_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Redwood Carrier Group #98",
+            "taxIdOrEin": "XX-XXX4626",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "99",
+      "name": "Timberline Supply Chain LLC #99",
+      "contactEmail": "compliance@timberline.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-99-coi",
+          "type": "COI",
+          "fileName": "COI_Timberline_2028.pdf",
+          "extractedData": {
+            "vendorName": "Timberline Supply Chain LLC #99",
+            "expirationDate": "2028-04-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-99-w9",
+          "type": "W9",
+          "fileName": "W9_Timberline_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Timberline Supply Chain LLC #99",
+            "taxIdOrEin": "XX-XXX4663",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "100",
+      "name": "Sierra Logistics Inc #100",
+      "contactEmail": "compliance@sierralogi.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-100-coi",
+          "type": "COI",
+          "fileName": "COI_Sierra_2027.pdf",
+          "extractedData": {
+            "vendorName": "Sierra Logistics Inc #100",
+            "expirationDate": "2027-05-20",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-100-w9",
+          "type": "W9",
+          "fileName": "W9_Sierra_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sierra Logistics Inc #100",
+            "taxIdOrEin": "XX-XXX4700",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "101",
+      "name": "Mojave Freight Solutions #101",
+      "contactEmail": "compliance@mojavefrei.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-101-coi",
+          "type": "COI",
+          "fileName": "COI_Mojave_2028.pdf",
+          "extractedData": {
+            "vendorName": "Mojave Freight Solutions #101",
+            "expirationDate": "2028-06-21",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-101-w9",
+          "type": "W9",
+          "fileName": "W9_Mojave_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Mojave Freight Solutions #101",
+            "taxIdOrEin": "XX-XXX4737",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "102",
+      "name": "Liberty Hauling Corp #102",
+      "contactEmail": "compliance@libertyhau.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-102-coi",
+          "type": "COI",
+          "fileName": "COI_Liberty_2027.pdf",
+          "extractedData": {
+            "vendorName": "Liberty Hauling Corp #102",
+            "expirationDate": "2027-07-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-102-w9",
+          "type": "W9",
+          "fileName": "W9_Liberty_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Liberty Hauling Corp #102",
+            "taxIdOrEin": "XX-XXX4774",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "103",
+      "name": "Patriot Carrier Group #103",
+      "contactEmail": "compliance@patriotcar.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-103-coi",
+          "type": "COI",
+          "fileName": "COI_Patriot_2028.pdf",
+          "extractedData": {
+            "vendorName": "Patriot Carrier Group #103",
+            "expirationDate": "2028-08-23",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-103-w9",
+          "type": "W9",
+          "fileName": "W9_Patriot_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Patriot Carrier Group #103",
+            "taxIdOrEin": "XX-XXX4811",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "104",
+      "name": "Dominion Supply Chain LLC #104",
+      "contactEmail": "compliance@dominionsu.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-104-coi",
+          "type": "COI",
+          "fileName": "COI_Dominion_2027.pdf",
+          "extractedData": {
+            "vendorName": "Dominion Supply Chain LLC #104",
+            "expirationDate": "2027-09-24",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-104-w9",
+          "type": "W9",
+          "fileName": "W9_Dominion_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Dominion Supply Chain LLC #104",
+            "taxIdOrEin": "XX-XXX4848",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "105",
+      "name": "Capitol Logistics Inc #105",
+      "contactEmail": "compliance@capitollog.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-105-coi",
+          "type": "COI",
+          "fileName": "COI_Capitol_2028.pdf",
+          "extractedData": {
+            "vendorName": "Capitol Logistics Inc #105",
+            "expirationDate": "2028-10-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-105-w9",
+          "type": "W9",
+          "fileName": "W9_Capitol_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Capitol Logistics Inc #105",
+            "taxIdOrEin": "XX-XXX4885",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "106",
+      "name": "Empire Freight Solutions #106",
+      "contactEmail": "compliance@empirefrei.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-106-coi",
+          "type": "COI",
+          "fileName": "COI_Empire_2027.pdf",
+          "extractedData": {
+            "vendorName": "Empire Freight Solutions #106",
+            "expirationDate": "2027-11-26",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-106-w9",
+          "type": "W9",
+          "fileName": "W9_Empire_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Empire Freight Solutions #106",
+            "taxIdOrEin": "XX-XXX4922",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "107",
+      "name": "Allied Hauling Corp #107",
+      "contactEmail": "compliance@alliedhaul.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-107-coi",
+          "type": "COI",
+          "fileName": "COI_Allied_2028.pdf",
+          "extractedData": {
+            "vendorName": "Allied Hauling Corp #107",
+            "expirationDate": "2028-12-27",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-107-w9",
+          "type": "W9",
+          "fileName": "W9_Allied_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Allied Hauling Corp #107",
+            "taxIdOrEin": "XX-XXX4959",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "108",
+      "name": "Unified Carrier Group #108",
+      "contactEmail": "compliance@unifiedcar.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-108-coi",
+          "type": "COI",
+          "fileName": "COI_Unified_2027.pdf",
+          "extractedData": {
+            "vendorName": "Unified Carrier Group #108",
+            "expirationDate": "2027-01-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-108-w9",
+          "type": "W9",
+          "fileName": "W9_Unified_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Unified Carrier Group #108",
+            "taxIdOrEin": "XX-XXX4996",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "109",
+      "name": "Paramount Supply Chain LLC #109",
+      "contactEmail": "compliance@paramounts.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-109-coi",
+          "type": "COI",
+          "fileName": "COI_Paramount_2028.pdf",
+          "extractedData": {
+            "vendorName": "Paramount Supply Chain LLC #109",
+            "expirationDate": "2028-02-11",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-109-w9",
+          "type": "W9",
+          "fileName": "W9_Paramount_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Paramount Supply Chain LLC #109",
+            "taxIdOrEin": "XX-XXX5033",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "110",
+      "name": "Pinnacle Logistics Inc #110",
+      "contactEmail": "compliance@pinnaclelo.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-110-coi",
+          "type": "COI",
+          "fileName": "COI_Pinnacle_2027.pdf",
+          "extractedData": {
+            "vendorName": "Pinnacle Logistics Inc #110",
+            "expirationDate": "2027-03-12",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-110-w9",
+          "type": "W9",
+          "fileName": "W9_Pinnacle_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pinnacle Logistics Inc #110",
+            "taxIdOrEin": "XX-XXX5070",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "111",
+      "name": "Zenith Freight Solutions #111",
+      "contactEmail": "compliance@zenithfrei.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-111-coi",
+          "type": "COI",
+          "fileName": "COI_Zenith_2028.pdf",
+          "extractedData": {
+            "vendorName": "Zenith Freight Solutions #111",
+            "expirationDate": "2028-04-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-111-w9",
+          "type": "W9",
+          "fileName": "W9_Zenith_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Zenith Freight Solutions #111",
+            "taxIdOrEin": "XX-XXX5107",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "112",
+      "name": "Polaris Hauling Corp #112",
+      "contactEmail": "compliance@polarishau.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-112-coi",
+          "type": "COI",
+          "fileName": "COI_Polaris_2027.pdf",
+          "extractedData": {
+            "vendorName": "Polaris Hauling Corp #112",
+            "expirationDate": "2027-05-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-112-w9",
+          "type": "W9",
+          "fileName": "W9_Polaris_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Polaris Hauling Corp #112",
+            "taxIdOrEin": "XX-XXX5144",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "113",
+      "name": "NorthStar Carrier Group #113",
+      "contactEmail": "compliance@northstarc.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-113-coi",
+          "type": "COI",
+          "fileName": "COI_NorthStar_2028.pdf",
+          "extractedData": {
+            "vendorName": "NorthStar Carrier Group #113",
+            "expirationDate": "2028-06-15",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-113-w9",
+          "type": "W9",
+          "fileName": "W9_NorthStar_Signed.pdf",
+          "extractedData": {
+            "vendorName": "NorthStar Carrier Group #113",
+            "taxIdOrEin": "XX-XXX5181",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "114",
+      "name": "Delta Services Inc #114",
+      "contactEmail": "compliance@deltaservi.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-114-coi",
+          "type": "COI",
+          "fileName": "COI_Delta_2027.pdf",
+          "extractedData": {
+            "vendorName": "Delta Services Inc #114",
+            "expirationDate": "2027-07-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-114-w9",
+          "type": "W9",
+          "fileName": "W9_Delta_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Delta Services Inc #114",
+            "taxIdOrEin": "XX-XXX5218",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "115",
+      "name": "GreenLine Freight Solutions #115",
+      "contactEmail": "compliance@greenlinef.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-115-coi",
+          "type": "COI",
+          "fileName": "COI_GreenLine_2028.pdf",
+          "extractedData": {
+            "vendorName": "GreenLine Freight Solutions #115",
+            "expirationDate": "2028-08-17",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-115-w9",
+          "type": "W9",
+          "fileName": "W9_GreenLine_Signed.pdf",
+          "extractedData": {
+            "vendorName": "GreenLine Freight Solutions #115",
+            "taxIdOrEin": "XX-XXX5255",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "116",
+      "name": "Cardinal Hauling Corp #116",
+      "contactEmail": "compliance@cardinalha.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-116-coi",
+          "type": "COI",
+          "fileName": "COI_Cardinal_2027.pdf",
+          "extractedData": {
+            "vendorName": "Cardinal Hauling Corp #116",
+            "expirationDate": "2027-09-18",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-116-w9",
+          "type": "W9",
+          "fileName": "W9_Cardinal_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cardinal Hauling Corp #116",
+            "taxIdOrEin": "XX-XXX5292",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "117",
+      "name": "Matrix Carrier Group #117",
+      "contactEmail": "compliance@matrixcarr.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-117-coi",
+          "type": "COI",
+          "fileName": "COI_Matrix_2028.pdf",
+          "extractedData": {
+            "vendorName": "Matrix Carrier Group #117",
+            "expirationDate": "2028-10-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-117-w9",
+          "type": "W9",
+          "fileName": "W9_Matrix_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Matrix Carrier Group #117",
+            "taxIdOrEin": "XX-XXX5329",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "118",
+      "name": "Beacon Supply Chain LLC #118",
+      "contactEmail": "compliance@beaconsupp.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-118-coi",
+          "type": "COI",
+          "fileName": "COI_Beacon_2027.pdf",
+          "extractedData": {
+            "vendorName": "Beacon Supply Chain LLC #118",
+            "expirationDate": "2027-11-20",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-118-w9",
+          "type": "W9",
+          "fileName": "W9_Beacon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Beacon Supply Chain LLC #118",
+            "taxIdOrEin": "XX-XXX5366",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "119",
+      "name": "Trinity Services Inc #119",
+      "contactEmail": "compliance@trinityser.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-119-coi",
+          "type": "COI",
+          "fileName": "COI_Trinity_2028.pdf",
+          "extractedData": {
+            "vendorName": "Trinity Services Inc #119",
+            "expirationDate": "2028-12-21",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-119-w9",
+          "type": "W9",
+          "fileName": "W9_Trinity_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Trinity Services Inc #119",
+            "taxIdOrEin": "XX-XXX5403",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "120",
+      "name": "Summit Freight Solutions #120",
+      "contactEmail": "compliance@summitfrei.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-120-coi",
+          "type": "COI",
+          "fileName": "COI_Summit_2027.pdf",
+          "extractedData": {
+            "vendorName": "Summit Freight Solutions #120",
+            "expirationDate": "2027-01-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-120-w9",
+          "type": "W9",
+          "fileName": "W9_Summit_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Summit Freight Solutions #120",
+            "taxIdOrEin": "XX-XXX5440",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "121",
+      "name": "Apex Hauling Corp #121",
+      "contactEmail": "compliance@apexhaulin.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-121-coi",
+          "type": "COI",
+          "fileName": "COI_Apex_2028.pdf",
+          "extractedData": {
+            "vendorName": "Apex Hauling Corp #121",
+            "expirationDate": "2028-02-23",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-121-w9",
+          "type": "W9",
+          "fileName": "W9_Apex_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Apex Hauling Corp #121",
+            "taxIdOrEin": "XX-XXX5477",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "122",
+      "name": "Horizon Carrier Group #122",
+      "contactEmail": "compliance@horizoncar.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-122-coi",
+          "type": "COI",
+          "fileName": "COI_Horizon_2027.pdf",
+          "extractedData": {
+            "vendorName": "Horizon Carrier Group #122",
+            "expirationDate": "2027-03-24",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-122-w9",
+          "type": "W9",
+          "fileName": "W9_Horizon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Horizon Carrier Group #122",
+            "taxIdOrEin": "XX-XXX5514",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "123",
+      "name": "Pioneer Supply Chain LLC #123",
+      "contactEmail": "compliance@pioneersup.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-123-coi",
+          "type": "COI",
+          "fileName": "COI_Pioneer_2028.pdf",
+          "extractedData": {
+            "vendorName": "Pioneer Supply Chain LLC #123",
+            "expirationDate": "2028-04-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-123-w9",
+          "type": "W9",
+          "fileName": "W9_Pioneer_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pioneer Supply Chain LLC #123",
+            "taxIdOrEin": "XX-XXX5551",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "124",
+      "name": "Falcon Services Inc #124",
+      "contactEmail": "compliance@falconserv.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-124-coi",
+          "type": "COI",
+          "fileName": "COI_Falcon_2027.pdf",
+          "extractedData": {
+            "vendorName": "Falcon Services Inc #124",
+            "expirationDate": "2027-05-26",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-124-w9",
+          "type": "W9",
+          "fileName": "W9_Falcon_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Falcon Services Inc #124",
+            "taxIdOrEin": "XX-XXX5588",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "125",
+      "name": "Eagle Freight Solutions #125",
+      "contactEmail": "compliance@eaglefreig.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-125-coi",
+          "type": "COI",
+          "fileName": "COI_Eagle_2028.pdf",
+          "extractedData": {
+            "vendorName": "Eagle Freight Solutions #125",
+            "expirationDate": "2028-06-27",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-125-w9",
+          "type": "W9",
+          "fileName": "W9_Eagle_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Eagle Freight Solutions #125",
+            "taxIdOrEin": "XX-XXX5625",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "126",
+      "name": "Sterling Hauling Corp #126",
+      "contactEmail": "compliance@sterlingha.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-126-coi",
+          "type": "COI",
+          "fileName": "COI_Sterling_2027.pdf",
+          "extractedData": {
+            "vendorName": "Sterling Hauling Corp #126",
+            "expirationDate": "2027-07-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-126-w9",
+          "type": "W9",
+          "fileName": "W9_Sterling_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sterling Hauling Corp #126",
+            "taxIdOrEin": "XX-XXX5662",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "127",
+      "name": "CrossRoads Carrier Group #127",
+      "contactEmail": "compliance@crossroads.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-127-coi",
+          "type": "COI",
+          "fileName": "COI_CrossRoads_2028.pdf",
+          "extractedData": {
+            "vendorName": "CrossRoads Carrier Group #127",
+            "expirationDate": "2028-08-11",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-127-w9",
+          "type": "W9",
+          "fileName": "W9_CrossRoads_Signed.pdf",
+          "extractedData": {
+            "vendorName": "CrossRoads Carrier Group #127",
+            "taxIdOrEin": "XX-XXX5699",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "128",
+      "name": "Quantum Supply Chain LLC #128",
+      "contactEmail": "compliance@quantumsup.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-128-coi",
+          "type": "COI",
+          "fileName": "COI_Quantum_2027.pdf",
+          "extractedData": {
+            "vendorName": "Quantum Supply Chain LLC #128",
+            "expirationDate": "2027-09-12",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-128-w9",
+          "type": "W9",
+          "fileName": "W9_Quantum_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Quantum Supply Chain LLC #128",
+            "taxIdOrEin": "XX-XXX5736",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "129",
+      "name": "Synergy Services Inc #129",
+      "contactEmail": "compliance@synergyser.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-129-coi",
+          "type": "COI",
+          "fileName": "COI_Synergy_2028.pdf",
+          "extractedData": {
+            "vendorName": "Synergy Services Inc #129",
+            "expirationDate": "2028-10-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-129-w9",
+          "type": "W9",
+          "fileName": "W9_Synergy_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Synergy Services Inc #129",
+            "taxIdOrEin": "XX-XXX5773",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "130",
+      "name": "NextGen Freight Solutions #130",
+      "contactEmail": "compliance@nextgenfre.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-130-coi",
+          "type": "COI",
+          "fileName": "COI_NextGen_2027.pdf",
+          "extractedData": {
+            "vendorName": "NextGen Freight Solutions #130",
+            "expirationDate": "2027-11-14",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-130-w9",
+          "type": "W9",
+          "fileName": "W9_NextGen_Signed.pdf",
+          "extractedData": {
+            "vendorName": "NextGen Freight Solutions #130",
+            "taxIdOrEin": "XX-XXX5810",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "131",
+      "name": "Evergreen Hauling Corp #131",
+      "contactEmail": "compliance@evergreenh.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-131-coi",
+          "type": "COI",
+          "fileName": "COI_Evergreen_2028.pdf",
+          "extractedData": {
+            "vendorName": "Evergreen Hauling Corp #131",
+            "expirationDate": "2028-12-15",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-131-w9",
+          "type": "W9",
+          "fileName": "W9_Evergreen_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Evergreen Hauling Corp #131",
+            "taxIdOrEin": "XX-XXX5847",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "132",
+      "name": "Vanguard Carrier Group #132",
+      "contactEmail": "compliance@vanguardca.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-132-coi",
+          "type": "COI",
+          "fileName": "COI_Vanguard_2027.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Carrier Group #132",
+            "expirationDate": "2027-01-16",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-132-w9",
+          "type": "W9",
+          "fileName": "W9_Vanguard_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Vanguard Carrier Group #132",
+            "taxIdOrEin": "XX-XXX5884",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "133",
+      "name": "SilverRock Supply Chain LLC #133",
+      "contactEmail": "compliance@silverrock.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-133-coi",
+          "type": "COI",
+          "fileName": "COI_SilverRock_2028.pdf",
+          "extractedData": {
+            "vendorName": "SilverRock Supply Chain LLC #133",
+            "expirationDate": "2028-02-17",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-133-w9",
+          "type": "W9",
+          "fileName": "W9_SilverRock_Signed.pdf",
+          "extractedData": {
+            "vendorName": "SilverRock Supply Chain LLC #133",
+            "taxIdOrEin": "XX-XXX5921",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "134",
+      "name": "Highland Services Inc #134",
+      "contactEmail": "compliance@highlandse.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-134-coi",
+          "type": "COI",
+          "fileName": "COI_Highland_2027.pdf",
+          "extractedData": {
+            "vendorName": "Highland Services Inc #134",
+            "expirationDate": "2027-03-18",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-134-w9",
+          "type": "W9",
+          "fileName": "W9_Highland_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Highland Services Inc #134",
+            "taxIdOrEin": "XX-XXX5958",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "135",
+      "name": "Ironclad Freight Solutions #135",
+      "contactEmail": "compliance@ironcladfr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-135-coi",
+          "type": "COI",
+          "fileName": "COI_Ironclad_2028.pdf",
+          "extractedData": {
+            "vendorName": "Ironclad Freight Solutions #135",
+            "expirationDate": "2028-04-19",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-135-w9",
+          "type": "W9",
+          "fileName": "W9_Ironclad_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Ironclad Freight Solutions #135",
+            "taxIdOrEin": "XX-XXX5995",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "136",
+      "name": "BlueRidge Hauling Corp #136",
+      "contactEmail": "compliance@blueridgeh.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-136-coi",
+          "type": "COI",
+          "fileName": "COI_BlueRidge_2027.pdf",
+          "extractedData": {
+            "vendorName": "BlueRidge Hauling Corp #136",
+            "expirationDate": "2027-05-20",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-136-w9",
+          "type": "W9",
+          "fileName": "W9_BlueRidge_Signed.pdf",
+          "extractedData": {
+            "vendorName": "BlueRidge Hauling Corp #136",
+            "taxIdOrEin": "XX-XXX6032",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "137",
+      "name": "Pacific Carrier Group #137",
+      "contactEmail": "compliance@pacificcar.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-137-coi",
+          "type": "COI",
+          "fileName": "COI_Pacific_2028.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Carrier Group #137",
+            "expirationDate": "2028-06-21",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-137-w9",
+          "type": "W9",
+          "fileName": "W9_Pacific_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Pacific Carrier Group #137",
+            "taxIdOrEin": "XX-XXX6069",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "138",
+      "name": "Atlantic Supply Chain LLC #138",
+      "contactEmail": "compliance@atlanticsu.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-138-coi",
+          "type": "COI",
+          "fileName": "COI_Atlantic_2027.pdf",
+          "extractedData": {
+            "vendorName": "Atlantic Supply Chain LLC #138",
+            "expirationDate": "2027-07-22",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-138-w9",
+          "type": "W9",
+          "fileName": "W9_Atlantic_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Atlantic Supply Chain LLC #138",
+            "taxIdOrEin": "XX-XXX6106",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "139",
+      "name": "Sunbelt Services Inc #139",
+      "contactEmail": "compliance@sunbeltser.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-139-coi",
+          "type": "COI",
+          "fileName": "COI_Sunbelt_2028.pdf",
+          "extractedData": {
+            "vendorName": "Sunbelt Services Inc #139",
+            "expirationDate": "2028-08-23",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-139-w9",
+          "type": "W9",
+          "fileName": "W9_Sunbelt_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sunbelt Services Inc #139",
+            "taxIdOrEin": "XX-XXX6143",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "140",
+      "name": "Keystone Freight Solutions #140",
+      "contactEmail": "compliance@keystonefr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-140-coi",
+          "type": "COI",
+          "fileName": "COI_Keystone_2027.pdf",
+          "extractedData": {
+            "vendorName": "Keystone Freight Solutions #140",
+            "expirationDate": "2027-09-24",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-140-w9",
+          "type": "W9",
+          "fileName": "W9_Keystone_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Keystone Freight Solutions #140",
+            "taxIdOrEin": "XX-XXX6180",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "141",
+      "name": "Cornerstone Hauling Corp #141",
+      "contactEmail": "compliance@cornerston.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-141-coi",
+          "type": "COI",
+          "fileName": "COI_Cornerstone_2028.pdf",
+          "extractedData": {
+            "vendorName": "Cornerstone Hauling Corp #141",
+            "expirationDate": "2028-10-25",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-141-w9",
+          "type": "W9",
+          "fileName": "W9_Cornerstone_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Cornerstone Hauling Corp #141",
+            "taxIdOrEin": "XX-XXX6217",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "142",
+      "name": "Palmetto Carrier Group #142",
+      "contactEmail": "compliance@palmettoca.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-142-coi",
+          "type": "COI",
+          "fileName": "COI_Palmetto_2027.pdf",
+          "extractedData": {
+            "vendorName": "Palmetto Carrier Group #142",
+            "expirationDate": "2027-11-26",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-142-w9",
+          "type": "W9",
+          "fileName": "W9_Palmetto_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Palmetto Carrier Group #142",
+            "taxIdOrEin": "XX-XXX6254",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "143",
+      "name": "GreatLakes Supply Chain LLC #143",
+      "contactEmail": "compliance@greatlakes.com",
+      "type": "Staffing",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-143-coi",
+          "type": "COI",
+          "fileName": "COI_GreatLakes_2028.pdf",
+          "extractedData": {
+            "vendorName": "GreatLakes Supply Chain LLC #143",
+            "expirationDate": "2028-12-27",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-143-w9",
+          "type": "W9",
+          "fileName": "W9_GreatLakes_Signed.pdf",
+          "extractedData": {
+            "vendorName": "GreatLakes Supply Chain LLC #143",
+            "taxIdOrEin": "XX-XXX6291",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "144",
+      "name": "Frontier Services Inc #144",
+      "contactEmail": "compliance@frontierse.com",
+      "type": "Facilities",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-144-coi",
+          "type": "COI",
+          "fileName": "COI_Frontier_2027.pdf",
+          "extractedData": {
+            "vendorName": "Frontier Services Inc #144",
+            "expirationDate": "2027-01-10",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-144-w9",
+          "type": "W9",
+          "fileName": "W9_Frontier_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Frontier Services Inc #144",
+            "taxIdOrEin": "XX-XXX6328",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "145",
+      "name": "Redwood Freight Solutions #145",
+      "contactEmail": "compliance@redwoodfre.com",
+      "type": "Other",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-145-coi",
+          "type": "COI",
+          "fileName": "COI_Redwood_2028.pdf",
+          "extractedData": {
+            "vendorName": "Redwood Freight Solutions #145",
+            "expirationDate": "2028-02-11",
+            "coverageAmount": 5000000,
+            "coverageLabel": "$5,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-145-w9",
+          "type": "W9",
+          "fileName": "W9_Redwood_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Redwood Freight Solutions #145",
+            "taxIdOrEin": "XX-XXX6365",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "146",
+      "name": "Timberline Hauling Corp #146",
+      "contactEmail": "compliance@timberline.com",
+      "type": "HR Platform",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-146-coi",
+          "type": "COI",
+          "fileName": "COI_Timberline_2027.pdf",
+          "extractedData": {
+            "vendorName": "Timberline Hauling Corp #146",
+            "expirationDate": "2027-03-12",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-146-w9",
+          "type": "W9",
+          "fileName": "W9_Timberline_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Timberline Hauling Corp #146",
+            "taxIdOrEin": "XX-XXX6402",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "147",
+      "name": "Sierra Carrier Group #147",
+      "contactEmail": "compliance@sierracarr.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-147-coi",
+          "type": "COI",
+          "fileName": "COI_Sierra_2028.pdf",
+          "extractedData": {
+            "vendorName": "Sierra Carrier Group #147",
+            "expirationDate": "2028-04-13",
+            "coverageAmount": 2000000,
+            "coverageLabel": "$2,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-147-w9",
+          "type": "W9",
+          "fileName": "W9_Sierra_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Sierra Carrier Group #147",
+            "taxIdOrEin": "XX-XXX6439",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    },
+    {
+      "id": "148",
+      "name": "Mojave Supply Chain LLC #148",
+      "contactEmail": "compliance@mojavesupp.com",
+      "type": "Logistics",
+      "status": "VERIFIED",
+      "documents": [
+        {
+          "id": "doc-148-coi",
+          "type": "COI",
+          "fileName": "COI_Mojave_2027.pdf",
+          "extractedData": {
+            "vendorName": "Mojave Supply Chain LLC #148",
+            "expirationDate": "2027-05-14",
+            "coverageAmount": 1000000,
+            "coverageLabel": "$1,000,000 GL",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:00:00Z"
+        },
+        {
+          "id": "doc-148-w9",
+          "type": "W9",
+          "fileName": "W9_Mojave_Signed.pdf",
+          "extractedData": {
+            "vendorName": "Mojave Supply Chain LLC #148",
+            "taxIdOrEin": "XX-XXX6476",
+            "isSigned": true,
+            "confidenceScore": 0.99,
+            "missingFields": []
+          },
+          "status": "VERIFIED",
+          "createdAt": "2026-04-01T08:05:00Z"
+        }
+      ],
+      "createdAt": "2026-04-01T08:00:00Z",
+      "updatedAt": "2026-04-01T08:05:00Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-1792212200757",
+      "timestamp": "2026-10-17T04:43:20.757Z",
+      "vendorName": "Apex Freight Systems LLC",
+      "action": "Alert Dispatched (SLACK)",
+      "details": "Dispatched test expired_coi payload to #ap-compliance • HTTP 200 OK (141ms)",
+      "status": "success"
+    },
+    {
+      "id": "log-1792212198990",
+      "timestamp": "2026-10-17T04:43:18.990Z",
+      "vendorName": "Apex Freight Systems LLC",
+      "action": "Alert Dispatched (SLACK)",
+      "details": "Dispatched test expired_coi payload to #ap-compliance (Shared AP & Procurement Team) • HTTP 200 OK (129ms)",
+      "status": "success"
+    },
+    {
+      "id": "log-1792212194801",
+      "timestamp": "2026-10-17T04:43:14.801Z",
+      "vendorName": "Apex Freight Systems LLC",
+      "action": "Alert Dispatched (EMAIL)",
+      "details": "Dispatched test expired_coi payload to ap-alerts@acmelogistics.com, controller@acmelogistics.com • HTTP 200 OK (87ms)",
+      "status": "success"
+    },
+    {
+      "id": "log-1792212191271",
+      "timestamp": "2026-10-17T04:43:11.271Z",
+      "vendorName": "Apex Freight Systems LLC",
+      "action": "Alert Dispatched (SLACK)",
+      "details": "Dispatched test expired_coi payload to #ap-compliance (Shared AP & Procurement Team) • HTTP 200 OK (151ms)",
+      "status": "success"
+    },
+    {
+      "id": "log-1791484177685",
+      "timestamp": "2026-10-08T18:29:37.685Z",
+      "vendorName": "Batch Operations",
+      "action": "Bulk Notices Dispatched",
+      "details": "Dispatched automated compliance renewal notices to 5 selected vendor(s).",
+      "status": "success"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-01T08:00:00Z",
+      "vendorId": "1",
+      "vendorName": "Apex Logistics LLC",
+      "action": "Policy Expired",
+      "details": "Certificate of Insurance expired on 2026-09-30. Automatic payment freeze placed on vendor account.",
+      "status": "error"
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-10-05T09:12:00Z",
+      "vendorId": "2",
+      "vendorName": "Mid-Atlantic Freight",
+      "action": "Expiring Warning",
+      "details": "General Liability policy expires on 2026-10-24 (17 days remaining). 30-day renewal notice scheduled.",
+      "status": "warning"
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-10-07T07:45:00Z",
+      "vendorId": "3",
+      "vendorName": "Summit Facility Care",
+      "action": "Missing EIN",
+      "details": "Form W-9 received without valid Tax ID / EIN. Hold placed on AP payments until corrected form uploaded.",
+      "status": "error"
+    }
+  ],
+  "settings": {
+    "slackWebhookUrl": "",
+    "teamsWebhookUrl": "",
+    "alertEmail": "ap-alerts@acmelogistics.com",
+    "alertDestination": "slack",
+    "channels": {
+      "slack": {
+        "enabled": true,
+        "webhookUrl": "https://hooks.slack.com/services/T00/B00/XXXX",
+        "channelTarget": "#ap-compliance (Shared AP & Procurement Team)"
+      },
+      "teams": {
+        "enabled": false,
+        "webhookUrl": "https://acme.webhook.office.com/webhookb2/XXXX",
+        "channelTarget": "Finance / AP Teams Channel"
+      },
+      "email": {
+        "enabled": true,
+        "recipients": "ap-alerts@acmelogistics.com, controller@acmelogistics.com",
+        "mode": "multi",
+        "frequency": "both"
+      }
+    },
+    "triggers": {
+      "expiredCoi": true,
+      "missingW9": true,
+      "upcomingExpiry": true
+    },
+    "companyName": "Acme Logistics Inc.",
+    "requireSignedW9": true,
+    "minCoiCoverage": 1000000,
+    "noticeLeadDays": 30,
+    "autoHoldEnforcement": true,
+    "inboundEmailAlias": "intake@compliance.acmelogistics.com"
+  }
+}
