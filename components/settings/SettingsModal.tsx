@@ -35,6 +35,7 @@ import {
   Clock,
   Zap,
   Trash2,
+  Unlink,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -279,11 +280,28 @@ export function SettingsModal({
   const [payloadCopied, setPayloadCopied] = useState(false);
   const [curlCopied, setCurlCopied] = useState(false);
   const [expandedChannel, setExpandedChannel] = useState<"slack" | "teams" | "email" | null>(null);
+  const [disconnectConfirmApp, setDisconnectConfirmApp] = useState<"teams" | "slack" | null>(null);
+  const [disconnectInputText, setDisconnectInputText] = useState("");
+  const [disconnectError, setDisconnectError] = useState<string | null>(null);
   const [showLivePreview, setShowLivePreview] = useState(true);
   const [showRawPayload, setShowRawPayload] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [selectedThemeMode, setSelectedThemeMode] = useState<"system" | "light" | "dark" | null>(null);
   const activeThemeMode: "system" | "light" | "dark" = selectedThemeMode ?? (isDarkMode ? "dark" : "light");
+
+  // Custom Underwriting & Notice Rules state
+  const [isCustomCoverage, setIsCustomCoverage] = useState<boolean>(() => {
+    return ![1000000, 2000000, 5000000].includes(appSettings.minCoiCoverage || 1000000);
+  });
+  const [customCoverageInput, setCustomCoverageInput] = useState<string>(() => {
+    return String(appSettings.minCoiCoverage || 1000000);
+  });
+  const [isCustomNotice, setIsCustomNotice] = useState<boolean>(() => {
+    return ![30, 60, 90].includes(appSettings.noticeLeadDays || 30);
+  });
+  const [customNoticeInput, setCustomNoticeInput] = useState<string>(() => {
+    return String(appSettings.noticeLeadDays || 30);
+  });
 
   // Advanced Alert Channels state
   const [previewPlatform, setPreviewPlatform] = useState<"slack" | "teams" | "email">("slack");
@@ -379,6 +397,48 @@ export function SettingsModal({
         channels: updated,
       };
     });
+  };
+
+  const handleExecuteDisconnect = () => {
+    if (!disconnectConfirmApp) return;
+    const targetApp = disconnectConfirmApp;
+    const appDisplayName = targetApp === "teams" ? "Microsoft Teams" : "Slack";
+    const requiredPhrase = targetApp === "teams" ? "confirm disconnect teams" : "confirm disconnect slack";
+    const normalized = disconnectInputText.trim().toLowerCase();
+
+    const isMatch =
+      normalized === requiredPhrase ||
+      normalized === `confirm disconnecting ${targetApp}` ||
+      normalized === `confirm disconnecting ${appDisplayName.toLowerCase()}` ||
+      normalized === `confirm disconnect ${appDisplayName.toLowerCase()}` ||
+      normalized === `disconnect ${targetApp}` ||
+      normalized === `disconnect ${appDisplayName.toLowerCase()}` ||
+      normalized === "confirm disconnect";
+
+    if (!isMatch) {
+      setDisconnectError(`Please type "${requiredPhrase}" to proceed with disconnection.`);
+      return;
+    }
+
+    // 1. Disable channel in settings
+    updateChannel(targetApp, { enabled: false });
+
+    // 2. Collapse drawer if open so webhooks and parameters are hidden
+    if (expandedChannel === targetApp) {
+      setExpandedChannel(null);
+    }
+
+    // 3. Reset confirmation modal state
+    setDisconnectConfirmApp(null);
+    setDisconnectInputText("");
+    setDisconnectError(null);
+
+    // 4. Notify user
+    notify(
+      `${appDisplayName} Disconnected`,
+      `Outbound notifications are now disabled. The button has been reset to "Connect".`,
+      "info"
+    );
   };
 
   const toggleTrigger = (triggerKey: keyof AppSettings["triggers"]) => {
@@ -712,6 +772,26 @@ export function SettingsModal({
 
   const sampleJsonPayload = getDynamicJsonPayload();
 
+  const isDisconnectInputValid = Boolean(
+    disconnectConfirmApp &&
+      (() => {
+        const requiredPhrase =
+          disconnectConfirmApp === "teams" ? "confirm disconnect teams" : "confirm disconnect slack";
+        const targetApp = disconnectConfirmApp;
+        const appName = targetApp === "teams" ? "Microsoft Teams" : "Slack";
+        const norm = disconnectInputText.trim().toLowerCase();
+        return (
+          norm === requiredPhrase ||
+          norm === `confirm disconnecting ${targetApp}` ||
+          norm === `confirm disconnecting ${appName.toLowerCase()}` ||
+          norm === `confirm disconnect ${appName.toLowerCase()}` ||
+          norm === `disconnect ${targetApp}` ||
+          norm === `disconnect ${appName.toLowerCase()}` ||
+          norm === "confirm disconnect"
+        );
+      })()
+  );
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -731,12 +811,12 @@ export function SettingsModal({
             exit={{ opacity: 0, scale: 0.95, y: 14 }}
             transition={{ duration: 0.18, ease: "easeOut" }}
             onClick={(e) => e.stopPropagation()}
-            className="w-[95vw] max-w-[1580px] h-[90vh] max-h-[94vh] rounded-2xl border border-slate-200 dark:border-zinc-800 bg-white dark:bg-[#0e0f12] text-slate-900 dark:text-zinc-100 shadow-2xl shadow-slate-900/10 dark:shadow-black/60 flex flex-col lg:flex-row overflow-hidden cursor-default font-sans antialiased transition-colors"
+            className="w-[95vw] max-w-[1580px] h-[90vh] max-h-[94vh] rounded-2xl border border-slate-200 dark:border-neutral-800 bg-white dark:bg-black text-slate-900 dark:text-zinc-100 shadow-2xl shadow-slate-900/10 dark:shadow-black/60 flex flex-col lg:flex-row overflow-hidden cursor-default font-sans antialiased transition-colors"
           >
           {/* ========================================================= */}
           {/* DESKTOP DYNAMIC SIDEBAR (scales 20% to 26%, collapses on tablet and mobile < 1024px) */}
           {/* ========================================================= */}
-          <aside className="hidden lg:flex lg:w-[24%] lg:min-w-[260px] lg:max-w-[340px] xl:w-[22%] xl:max-w-[360px] shrink-0 flex-col justify-between border-r border-slate-200 dark:border-zinc-800/80 bg-slate-50/90 dark:bg-[#121316] p-4 lg:p-6 select-none transition-all duration-200">
+          <aside className="hidden lg:flex lg:w-[24%] lg:min-w-[260px] lg:max-w-[340px] xl:w-[22%] xl:max-w-[360px] shrink-0 flex-col justify-between border-r border-slate-200 dark:border-neutral-800 bg-slate-50/90 dark:bg-neutral-950 p-4 lg:p-6 select-none transition-all duration-200">
             {/* Top Navigation */}
             <div>
               <div className="text-[11px] font-semibold tracking-wider text-slate-500 dark:text-zinc-400 uppercase mb-4 px-2 truncate">
@@ -856,7 +936,7 @@ export function SettingsModal({
           {/* ========================================================= */}
           {/* COMPACT MOBILE & TABLET HEADER & TABS (< 1024px) */}
           {/* ========================================================= */}
-          <div className="lg:hidden border-b border-slate-200 dark:border-zinc-800 bg-slate-50 dark:bg-[#121316] p-3 sm:p-4 shrink-0 transition-colors">
+          <div className="lg:hidden border-b border-slate-200 dark:border-neutral-800 bg-slate-50 dark:bg-neutral-950 p-3 sm:p-4 shrink-0 transition-colors">
             {/* Top Bar with Back Arrow, Title, and Close */}
             <div className="flex items-center justify-between mb-2 sm:mb-3">
               <div className="flex items-center gap-2 sm:gap-2.5 min-w-0">
@@ -930,7 +1010,7 @@ export function SettingsModal({
           {/* ========================================================= */}
           {/* MAIN CONTENT AREA */}
           {/* ========================================================= */}
-          <main className="flex-1 flex flex-col min-w-0 bg-white dark:bg-[#0c0d0f] overflow-y-auto overflow-x-hidden transition-colors">
+          <main className="flex-1 flex flex-col min-w-0 bg-white dark:bg-black overflow-y-auto overflow-x-hidden transition-colors">
             {/* Top Header of Main Area (Desktop >= 1024px) */}
             <div className="hidden lg:flex items-center justify-between p-5 lg:p-6 pb-4 border-b border-slate-200 dark:border-zinc-800/80 shrink-0 gap-4">
               <div className="min-w-0 pr-4">
@@ -1029,7 +1109,7 @@ export function SettingsModal({
                                 )
                               ) : (
                                 <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10.5px] font-medium bg-slate-200 dark:bg-zinc-800 text-slate-600 dark:text-zinc-400 border border-slate-300 dark:border-zinc-700">
-                                  Disabled
+                                  Disconnected
                                 </span>
                               )}
                             </div>
@@ -1039,34 +1119,54 @@ export function SettingsModal({
                           </div>
                         </div>
 
-                        {/* Action Buttons: Ping & Configure */}
+                        {/* Action Buttons: Ping & Configure / Connect */}
                         <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
-                          <button
-                            type="button"
-                            onClick={() => handleTestDispatch("slack")}
-                            disabled={testingChannel === "slack"}
-                            className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-zinc-700/80 bg-white dark:bg-zinc-800/70 hover:bg-slate-100 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 text-xs font-medium transition-all cursor-pointer shadow-2xs disabled:opacity-60"
-                            title="Ping Slack webhook"
-                          >
-                            {testingChannel === "slack" ? (
-                              <RefreshCw className="w-3.5 h-3.5 animate-spin text-slate-600 dark:text-zinc-300" />
-                            ) : (
-                              <Zap className="w-3.5 h-3.5 text-amber-500" />
-                            )}
-                            <span>{testingChannel === "slack" ? "Pinging..." : "Ping"}</span>
-                          </button>
-                          <button
-                            type="button"
-                            onClick={() => setExpandedChannel(expandedChannel === "slack" ? null : "slack")}
-                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-zinc-700/80 bg-white dark:bg-zinc-800/70 hover:bg-slate-100 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 text-xs font-medium transition-all cursor-pointer shadow-2xs"
-                          >
-                            <span>Configure</span>
-                            {expandedChannel === "slack" ? (
-                              <ChevronUp className="w-3.5 h-3.5 text-slate-500 dark:text-zinc-400" />
-                            ) : (
-                              <ChevronDown className="w-3.5 h-3.5 text-slate-500 dark:text-zinc-400" />
-                            )}
-                          </button>
+                          {channels.slack.enabled ? (
+                            <>
+                              <button
+                                type="button"
+                                onClick={() => handleTestDispatch("slack")}
+                                disabled={testingChannel === "slack"}
+                                className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-300 dark:border-zinc-700/80 bg-white dark:bg-zinc-800/70 hover:bg-slate-100 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 text-xs font-medium transition-all cursor-pointer shadow-2xs disabled:opacity-60"
+                                title="Ping Slack webhook"
+                              >
+                                {testingChannel === "slack" ? (
+                                  <RefreshCw className="w-3.5 h-3.5 animate-spin text-slate-600 dark:text-zinc-300" />
+                                ) : (
+                                  <Zap className="w-3.5 h-3.5 text-amber-500" />
+                                )}
+                                <span>{testingChannel === "slack" ? "Pinging..." : "Ping"}</span>
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => setExpandedChannel(expandedChannel === "slack" ? null : "slack")}
+                                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-300 dark:border-zinc-700/80 bg-white dark:bg-zinc-800/70 hover:bg-slate-100 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 text-xs font-medium transition-all cursor-pointer shadow-2xs"
+                              >
+                                <span>Configure</span>
+                                {expandedChannel === "slack" ? (
+                                  <ChevronUp className="w-3.5 h-3.5 text-slate-500 dark:text-zinc-400" />
+                                ) : (
+                                  <ChevronDown className="w-3.5 h-3.5 text-slate-500 dark:text-zinc-400" />
+                                )}
+                              </button>
+                            </>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={() => {
+                                updateChannel("slack", { enabled: true });
+                                setExpandedChannel("slack");
+                                notify(
+                                  "Slack Connected",
+                                  "Slack connector enabled. Enter your Incoming Webhook URL below to route alerts.",
+                                  "success"
+                                );
+                              }}
+                              className="shrink-0 px-4 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white dark:bg-white dark:hover:bg-zinc-200 dark:text-zinc-950 text-xs font-semibold shadow-xs transition-colors cursor-pointer"
+                            >
+                              Connect
+                            </button>
+                          )}
                         </div>
                       </div>
 
@@ -1081,21 +1181,24 @@ export function SettingsModal({
                             className="border-t border-slate-200 dark:border-zinc-800/80 bg-slate-100/70 dark:bg-zinc-950/60 p-4 space-y-4"
                           >
                             <div className="flex items-center justify-between pb-2 border-b border-slate-200 dark:border-zinc-800/60">
-                              <span className="text-xs font-medium text-slate-700 dark:text-zinc-300">Channel Activation</span>
+                              <div className="flex items-center gap-2">
+                                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                                <span className="text-xs font-medium text-slate-700 dark:text-zinc-300">
+                                  Connected to Slack Workspace
+                                </span>
+                              </div>
                               <button
                                 type="button"
-                                onClick={() => updateChannel("slack", { enabled: !channels.slack.enabled })}
-                                className={cn(
-                                  "w-10 h-5 rounded-full transition-colors relative cursor-pointer",
-                                  channels.slack.enabled ? "bg-emerald-500" : "bg-slate-300 dark:bg-zinc-700"
-                                )}
+                                onClick={() => {
+                                  setDisconnectConfirmApp("slack");
+                                  setDisconnectInputText("");
+                                  setDisconnectError(null);
+                                }}
+                                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium text-red-600 dark:text-red-400 bg-red-50 hover:bg-red-100 dark:bg-red-950/40 dark:hover:bg-red-900/40 border border-red-200 dark:border-red-900/60 transition-colors cursor-pointer shadow-2xs"
+                                title="Disconnect Slack Integration"
                               >
-                                <span
-                                  className={cn(
-                                    "w-4 h-4 rounded-full bg-white transition-transform absolute top-0.5 left-0.5 shadow-xs",
-                                    channels.slack.enabled ? "translate-x-5" : "translate-x-0"
-                                  )}
-                                />
+                                <Unlink className="w-3.5 h-3.5" />
+                                <span>Disconnect</span>
                               </button>
                             </div>
 
@@ -1225,6 +1328,11 @@ export function SettingsModal({
                               onClick={() => {
                                 updateChannel("teams", { enabled: true });
                                 setExpandedChannel("teams");
+                                notify(
+                                  "Microsoft Teams Connected",
+                                  "Teams connector enabled. Enter your Power Automate / Teams Webhook URL below to route alerts.",
+                                  "success"
+                                );
                               }}
                               className="shrink-0 px-4 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white dark:bg-white dark:hover:bg-zinc-200 dark:text-zinc-950 text-xs font-semibold shadow-xs transition-colors cursor-pointer"
                             >
@@ -1245,21 +1353,24 @@ export function SettingsModal({
                             className="border-t border-slate-200 dark:border-zinc-800/80 bg-slate-100/70 dark:bg-zinc-950/60 p-4 space-y-4"
                           >
                             <div className="flex items-center justify-between pb-2 border-b border-slate-200 dark:border-zinc-800/60">
-                              <span className="text-xs font-medium text-slate-700 dark:text-zinc-300">Connector Status</span>
+                              <div className="flex items-center gap-2">
+                                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                                <span className="text-xs font-medium text-slate-700 dark:text-zinc-300">
+                                  Connected to Microsoft Teams
+                                </span>
+                              </div>
                               <button
                                 type="button"
-                                onClick={() => updateChannel("teams", { enabled: !channels.teams.enabled })}
-                                className={cn(
-                                  "w-10 h-5 rounded-full transition-colors relative cursor-pointer",
-                                  channels.teams.enabled ? "bg-emerald-500" : "bg-slate-300 dark:bg-zinc-700"
-                                )}
+                                onClick={() => {
+                                  setDisconnectConfirmApp("teams");
+                                  setDisconnectInputText("");
+                                  setDisconnectError(null);
+                                }}
+                                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium text-red-600 dark:text-red-400 bg-red-50 hover:bg-red-100 dark:bg-red-950/40 dark:hover:bg-red-900/40 border border-red-200 dark:border-red-900/60 transition-colors cursor-pointer shadow-2xs"
+                                title="Disconnect Microsoft Teams Integration"
                               >
-                                <span
-                                  className={cn(
-                                    "w-4 h-4 rounded-full bg-white transition-transform absolute top-0.5 left-0.5 shadow-xs",
-                                    channels.teams.enabled ? "translate-x-5" : "translate-x-0"
-                                  )}
-                                />
+                                <Unlink className="w-3.5 h-3.5" />
+                                <span>Disconnect</span>
                               </button>
                             </div>
 
@@ -2307,30 +2418,88 @@ export function SettingsModal({
                             Vendors submitting COIs below this threshold are automatically flagged for AP payment freeze.
                           </div>
                         </div>
-                        <span className="font-mono text-xs font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800/60 px-2.5 py-1 rounded-lg">
-                          ${((appSettings.minCoiCoverage || 1000000) / 1000000).toFixed(0)},000,000 GL
-                        </span>
                       </div>
 
-                      <div className="grid grid-cols-3 gap-2">
-                        {[1000000, 2000000, 5000000].map((amount) => (
-                          <button
-                            key={amount}
-                            type="button"
-                            onClick={() => setAppSettings((prev) => ({ ...prev, minCoiCoverage: amount }))}
-                            className={cn(
-                              "py-2 px-2 sm:px-3 rounded-lg border text-xs font-medium transition-all cursor-pointer text-center flex items-center justify-center gap-1",
-                              appSettings.minCoiCoverage === amount
-                                ? "bg-slate-900 text-white border-slate-900 dark:bg-white dark:text-zinc-950 dark:border-white font-semibold shadow-xs"
-                                : "bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:border-zinc-700"
-                            )}
-                          >
-                            <span>${(amount / 1000000).toFixed(0)}M</span>
-                            <span className="hidden sm:inline">Standard GL</span>
-                            <span className="sm:hidden text-[11px]">GL</span>
-                          </button>
-                        ))}
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                        {[1000000, 2000000, 5000000].map((amount) => {
+                          const isSelected = !isCustomCoverage && appSettings.minCoiCoverage === amount;
+                          return (
+                            <button
+                              key={amount}
+                              type="button"
+                              onClick={() => {
+                                setIsCustomCoverage(false);
+                                setAppSettings((prev) => ({ ...prev, minCoiCoverage: amount }));
+                                setCustomCoverageInput(String(amount));
+                              }}
+                              className={cn(
+                                "py-2 px-2 sm:px-3 rounded-lg border text-xs font-medium transition-all cursor-pointer text-center flex items-center justify-center gap-1",
+                                isSelected
+                                  ? "bg-slate-900 text-white border-slate-900 dark:bg-white dark:text-zinc-950 dark:border-white font-semibold shadow-xs"
+                                  : "bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:border-zinc-700"
+                              )}
+                            >
+                              <span>${(amount / 1000000).toFixed(0)}M</span>
+                              <span className="hidden sm:inline">GL Limit</span>
+                            </button>
+                          );
+                        })}
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsCustomCoverage(true);
+                            if ([1000000, 2000000, 5000000].includes(appSettings.minCoiCoverage)) {
+                              setCustomCoverageInput(String(appSettings.minCoiCoverage));
+                            }
+                          }}
+                          className={cn(
+                            "py-2 px-2 sm:px-3 rounded-lg border text-xs font-medium transition-all cursor-pointer text-center flex items-center justify-center gap-1",
+                            isCustomCoverage
+                              ? "bg-slate-900 text-white border-slate-900 dark:bg-white dark:text-zinc-950 dark:border-white font-semibold shadow-xs"
+                              : "bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:border-zinc-700"
+                          )}
+                        >
+                          <span>Custom</span>
+                          {isCustomCoverage && ![1000000, 2000000, 5000000].includes(appSettings.minCoiCoverage) && (
+                            <span className="text-[11px] font-mono">
+                              (${appSettings.minCoiCoverage >= 1000000 ? `${(appSettings.minCoiCoverage / 1000000).toFixed(1)}M` : `${(appSettings.minCoiCoverage / 1000).toFixed(0)}k`})
+                            </span>
+                          )}
+                        </button>
                       </div>
+
+                      {isCustomCoverage && (
+                        <div className="pt-1 flex items-center gap-2">
+                          <div className="relative flex-1">
+                            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs font-semibold text-slate-400 dark:text-zinc-500 font-mono">
+                              $
+                            </span>
+                            <input
+                              type="number"
+                              min={0}
+                              step={50000}
+                              value={customCoverageInput}
+                              onChange={(e) => {
+                                const val = e.target.value;
+                                setCustomCoverageInput(val);
+                                const num = Number(val);
+                                if (!isNaN(num) && num >= 0) {
+                                  setAppSettings((prev) => ({ ...prev, minCoiCoverage: num }));
+                                }
+                              }}
+                              placeholder="Enter custom minimum limit (e.g. 3000000)"
+                              className="w-full pl-7 pr-3 py-2 rounded-lg bg-white dark:bg-zinc-950 border border-slate-300 dark:border-zinc-700 text-xs font-mono font-medium text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-zinc-500 outline-none focus:border-slate-500 dark:focus:border-zinc-500 transition-colors"
+                            />
+                          </div>
+                          <div className="text-[11px] font-mono text-slate-500 dark:text-zinc-400 whitespace-nowrap px-1">
+                            {Number(customCoverageInput) > 0 ? (
+                              <span>= ${Number(customCoverageInput).toLocaleString()} GL</span>
+                            ) : (
+                              <span>Custom Policy Minimum</span>
+                            )}
+                          </div>
+                        </div>
+                      )}
                     </div>
 
                     {/* Expiration Notice Lead Window */}
@@ -2344,29 +2513,86 @@ export function SettingsModal({
                             Number of days prior to policy expiration when automated renewal reminders are queued.
                           </div>
                         </div>
-                        <span className="font-mono text-xs font-bold text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800/60 px-2.5 py-1 rounded-lg">
-                          {appSettings.noticeLeadDays || 30} Days
-                        </span>
                       </div>
 
-                      <div className="grid grid-cols-3 gap-2">
-                        {[30, 60, 90].map((days) => (
-                          <button
-                            key={days}
-                            type="button"
-                            onClick={() => setAppSettings((prev) => ({ ...prev, noticeLeadDays: days }))}
-                            className={cn(
-                              "py-2 px-2 sm:px-3 rounded-lg border text-xs font-medium transition-all cursor-pointer text-center flex items-center justify-center gap-1",
-                              appSettings.noticeLeadDays === days
-                                ? "bg-slate-900 text-white border-slate-900 dark:bg-white dark:text-zinc-950 dark:border-white font-semibold shadow-xs"
-                                : "bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:border-zinc-700"
-                            )}
-                          >
-                            <span>{days} Days</span>
-                            <span className="hidden sm:inline">Advance Notice</span>
-                          </button>
-                        ))}
+                      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                        {[30, 60, 90].map((days) => {
+                          const isSelected = !isCustomNotice && appSettings.noticeLeadDays === days;
+                          return (
+                            <button
+                              key={days}
+                              type="button"
+                              onClick={() => {
+                                setIsCustomNotice(false);
+                                setAppSettings((prev) => ({ ...prev, noticeLeadDays: days }));
+                                setCustomNoticeInput(String(days));
+                              }}
+                              className={cn(
+                                "py-2 px-2 sm:px-3 rounded-lg border text-xs font-medium transition-all cursor-pointer text-center flex items-center justify-center gap-1",
+                                isSelected
+                                  ? "bg-slate-900 text-white border-slate-900 dark:bg-white dark:text-zinc-950 dark:border-white font-semibold shadow-xs"
+                                  : "bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:border-zinc-700"
+                              )}
+                            >
+                              <span>{days} Days</span>
+                              <span className="hidden sm:inline">Notice</span>
+                            </button>
+                          );
+                        })}
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsCustomNotice(true);
+                            if ([30, 60, 90].includes(appSettings.noticeLeadDays)) {
+                              setCustomNoticeInput(String(appSettings.noticeLeadDays));
+                            }
+                          }}
+                          className={cn(
+                            "py-2 px-2 sm:px-3 rounded-lg border text-xs font-medium transition-all cursor-pointer text-center flex items-center justify-center gap-1",
+                            isCustomNotice
+                              ? "bg-slate-900 text-white border-slate-900 dark:bg-white dark:text-zinc-950 dark:border-white font-semibold shadow-xs"
+                              : "bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 dark:bg-zinc-900 dark:border-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 dark:hover:border-zinc-700"
+                          )}
+                        >
+                          <span>Custom</span>
+                          {isCustomNotice && ![30, 60, 90].includes(appSettings.noticeLeadDays) && (
+                            <span className="text-[11px] font-mono">
+                              ({appSettings.noticeLeadDays}d)
+                            </span>
+                          )}
+                        </button>
                       </div>
+
+                      {isCustomNotice && (
+                        <div className="pt-1 flex items-center gap-2">
+                          <div className="relative flex-1">
+                            <input
+                              type="number"
+                              min={1}
+                              max={365}
+                              step={1}
+                              value={customNoticeInput}
+                              onChange={(e) => {
+                                const val = e.target.value;
+                                setCustomNoticeInput(val);
+                                const num = Number(val);
+                                if (!isNaN(num) && num >= 1 && num <= 365) {
+                                  setAppSettings((prev) => ({ ...prev, noticeLeadDays: num }));
+                                }
+                              }}
+                              placeholder="Enter advance days (e.g. 14, 45, 120)"
+                              className="w-full px-3 py-2 rounded-lg bg-white dark:bg-zinc-950 border border-slate-300 dark:border-zinc-700 text-xs font-mono font-medium text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-zinc-500 outline-none focus:border-slate-500 dark:focus:border-zinc-500 transition-colors"
+                            />
+                          </div>
+                          <div className="text-[11px] font-mono text-slate-500 dark:text-zinc-400 whitespace-nowrap px-1">
+                            {Number(customNoticeInput) > 0 ? (
+                              <span>= {Number(customNoticeInput)} Days Prior</span>
+                            ) : (
+                              <span>Days Advance</span>
+                            )}
+                          </div>
+                        </div>
+                      )}
                     </div>
 
                     {/* Auto-Hold Enforcement Toggle */}
@@ -2543,7 +2769,7 @@ export function SettingsModal({
             {/* ========================================================= */}
             {/* FOOTER BAR */}
             {/* ========================================================= */}
-            <div className="border-t border-slate-200 dark:border-zinc-800/80 px-4 sm:px-6 py-3 bg-slate-50 dark:bg-[#0e0f12] flex items-center justify-between shrink-0 transition-colors gap-3">
+            <div className="border-t border-slate-200 dark:border-zinc-800/80 px-4 sm:px-6 py-3 bg-slate-50 dark:bg-neutral-950 flex items-center justify-between shrink-0 transition-colors gap-3">
               {/* Left Admin Security Pill - visible only on tablet (sm:flex lg:hidden) where sidebar is collapsed and space permits */}
               <div className="hidden sm:flex lg:hidden items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/70 text-slate-600 dark:text-zinc-400 text-xs shadow-2xs shrink-0">
                 <Lock className="w-3.5 h-3.5 text-slate-400 dark:text-zinc-400 shrink-0" />
@@ -2574,6 +2800,114 @@ export function SettingsModal({
             </div>
           </main>
         </motion.div>
+
+        {/* ========================================================= */}
+        {/* DISCONNECT CONFIRMATION MODAL */}
+        {/* ========================================================= */}
+        <AnimatePresence>
+          {disconnectConfirmApp && (
+            <motion.div
+              key="disconnect-confirm-backdrop"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.15 }}
+              onClick={(e) => {
+                e.stopPropagation();
+                setDisconnectConfirmApp(null);
+                setDisconnectInputText("");
+                setDisconnectError(null);
+              }}
+              className="fixed inset-0 z-60 bg-black/80 backdrop-blur-xs flex items-center justify-center p-4 cursor-default"
+            >
+              <motion.div
+                key="disconnect-confirm-modal"
+                initial={{ opacity: 0, scale: 0.95, y: 12 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                exit={{ opacity: 0, scale: 0.95, y: 12 }}
+                transition={{ duration: 0.15, ease: "easeOut" }}
+                onClick={(e) => e.stopPropagation()}
+                className="w-full max-w-md rounded-2xl border border-slate-200 dark:border-neutral-800 bg-white dark:bg-neutral-950 p-6 shadow-2xl text-slate-900 dark:text-zinc-100 space-y-4"
+              >
+                {/* Header Icon + Titles */}
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-red-100 dark:bg-red-950/60 border border-red-200 dark:border-red-900/60 flex items-center justify-center text-red-600 dark:text-red-400 shrink-0">
+                    <Unlink className="w-5 h-5" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <h3 className="text-sm font-semibold text-slate-900 dark:text-white">
+                      Disconnect {disconnectConfirmApp === "teams" ? "Microsoft Teams" : "Slack"}
+                    </h3>
+                    <p className="text-xs text-slate-500 dark:text-zinc-400 mt-1 leading-relaxed">
+                      Disconnecting will immediately stop dispatching compliance alerts, adaptive cards, and AP payment freeze notifications to this channel.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Prompt & Required confirmation phrase */}
+                <div className="rounded-xl p-3.5 bg-slate-50 dark:bg-black border border-slate-200 dark:border-neutral-800 space-y-2.5">
+                  <div className="text-xs text-slate-700 dark:text-zinc-300 leading-snug">
+                    To confirm disconnecting, please type{" "}
+                    <code className="px-1.5 py-0.5 rounded font-mono text-[11px] font-bold text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/80 border border-red-200 dark:border-red-900/60 select-all">
+                      {disconnectConfirmApp === "teams" ? "confirm disconnect teams" : "confirm disconnect slack"}
+                    </code>{" "}
+                    below:
+                  </div>
+
+                  <input
+                    type="text"
+                    autoFocus
+                    value={disconnectInputText}
+                    onChange={(e) => {
+                      setDisconnectInputText(e.target.value);
+                      if (disconnectError) setDisconnectError(null);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" && isDisconnectInputValid) {
+                        handleExecuteDisconnect();
+                      }
+                    }}
+                    placeholder={
+                      disconnectConfirmApp === "teams"
+                        ? "confirm disconnect teams"
+                        : "confirm disconnect slack"
+                    }
+                    className="w-full text-xs px-3 py-2.5 rounded-lg bg-white dark:bg-neutral-900 border border-slate-300 dark:border-neutral-700 text-slate-900 dark:text-zinc-100 placeholder-slate-400 dark:placeholder-zinc-600 outline-none focus:border-red-500 dark:focus:border-red-500 font-mono transition-colors"
+                  />
+                  {disconnectError && (
+                    <div className="flex items-center gap-1.5 text-[11px] text-red-600 dark:text-red-400 font-medium pt-0.5">
+                      <AlertCircle className="w-3.5 h-3.5 shrink-0" />
+                      <span>{disconnectError}</span>
+                    </div>
+                  )}
+                </div>
+
+                {/* Action Buttons */}
+                <div className="flex items-center justify-end gap-2.5 pt-1">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setDisconnectConfirmApp(null);
+                      setDisconnectInputText("");
+                      setDisconnectError(null);
+                    }}
+                    className="px-3.5 py-2 rounded-lg text-xs font-medium text-slate-700 dark:text-zinc-300 hover:bg-slate-100 dark:hover:bg-neutral-900 border border-slate-300 dark:border-neutral-800 transition-colors cursor-pointer"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleExecuteDisconnect}
+                    disabled={!isDisconnectInputValid}
+                    className="px-4 py-2 rounded-lg text-xs font-semibold bg-red-600 hover:bg-red-700 text-white disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer shadow-xs"
+                  >
+                    Disconnect Integration
+                  </button>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </motion.div>
       )}
     </AnimatePresence>

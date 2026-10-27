@@ -34,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="font-sans antialiased bg-[#F8FAFC] text-[#0F172A]" suppressHydrationWarning>
+      <body className="font-sans antialiased bg-[#F8FAFC] dark:bg-black text-[#0F172A] dark:text-zinc-100" suppressHydrationWarning>
         {children}
       </body>
     </html>

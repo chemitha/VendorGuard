@@ -216,18 +216,18 @@ export function SmartDropdown<T extends string | number>({
           "inline-flex items-center justify-between gap-2 px-2.5 py-1.5 rounded-md border text-xs font-semibold outline-none transition-all cursor-pointer shadow-2xs select-none",
           className?.includes("w-full") && "w-full",
           isDarkMode
-            ? "bg-slate-900 border-slate-700/80 text-slate-200 hover:border-slate-600 hover:bg-slate-800 focus:ring-1 focus:ring-slate-500"
+            ? "bg-neutral-950 border-neutral-800 text-neutral-200 hover:border-neutral-700 hover:bg-neutral-900 focus:ring-1 focus:ring-neutral-500"
             : "bg-white border-slate-300 text-slate-800 hover:border-slate-400 hover:bg-slate-50 focus:ring-1 focus:ring-slate-400",
           isOpen &&
             (isDarkMode
-              ? "border-slate-500 ring-1 ring-slate-500"
+              ? "border-neutral-600 ring-1 ring-neutral-600"
               : "border-slate-400 ring-1 ring-slate-400")
         )}
       >
         <span>{selected?.label}</span>
         <ChevronDown
           className={cn(
-            "w-3.5 h-3.5 text-slate-400 transition-transform duration-200",
+            "w-3.5 h-3.5 text-slate-400 dark:text-neutral-500 transition-transform duration-200",
             isOpen &&
               (positionStyle.placement === "up" ? "rotate-0" : "rotate-180")
           )}
@@ -258,9 +258,9 @@ export function SmartDropdown<T extends string | number>({
             style={positionStyle.style}
             role="listbox"
             className={cn(
-              "z-50 rounded-lg border shadow-xl backdrop-blur-md p-1 font-medium text-xs focus:outline-none min-w-[80px]",
+              "z-50 rounded-lg border shadow-2xl backdrop-blur-md p-1 font-medium text-xs focus:outline-none min-w-[80px]",
               isDarkMode
-                ? "bg-slate-900/95 border-slate-700 text-slate-200 shadow-black/60"
+                ? "bg-black/95 border-neutral-800 text-neutral-200 shadow-black"
                 : "bg-white/95 border-slate-200 text-slate-800 shadow-slate-300/60"
             )}
           >
@@ -280,10 +280,10 @@ export function SmartDropdown<T extends string | number>({
                     "flex items-center justify-between w-full px-2.5 py-1.5 rounded-md text-xs transition-colors text-left cursor-pointer",
                     isSelected
                       ? isDarkMode
-                        ? "bg-slate-800 text-white font-semibold"
+                        ? "bg-neutral-900 text-white font-semibold"
                         : "bg-slate-100 text-slate-900 font-semibold"
                       : isDarkMode
-                      ? "text-slate-300 hover:bg-slate-800/60 hover:text-white"
+                      ? "text-neutral-300 hover:bg-neutral-900/80 hover:text-white"
                       : "text-slate-700 hover:bg-slate-50 hover:text-slate-900"
                   )}
                 >

@@ -41,6 +41,18 @@ body {
   scrollbar-color: rgba(148, 163, 184, 0.35) transparent;
 }
 
+.dark * {
+  scrollbar-color: rgba(113, 113, 122, 0.35) transparent;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(113, 113, 122, 0.35);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(161, 161, 170, 0.6);
+}
+
 /* Indeterminate Progress Bar Animation */
 @keyframes indeterminate-progress {
   0% {
@@ -124,6 +136,27 @@ body {
   animation: ripple-expand 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
-.animate-theme-ripple-ring {
+.animate-theme-ring {
   animation: ripple-ring-expand 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
+
+/* Cryptographic Sandglass Pulse Ring Animation */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.sandglass-ring {
+  animation: pulse-ring 2.4s ease-in-out infinite;
+}
+
